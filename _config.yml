@@ -1,5 +1,5 @@
 title: Anchen Sun 
-description: Electrical and Computer Engineering Ph.D. Candidate at University of Miami
+description: ECE Ph.D. Candidate
 site_title: '@anchensun - Anchen Sun'
 
 # Build settings
@@ -7,12 +7,12 @@ markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+github_username: anchensun
+blog_url: https://anchensun.github.io
+email: asun@miami.edu
+keybase_username: anchensun
+twitter_username: anchensun
+reddit_username: anchensun
 
 # absolute or relative
 profile_picture: assets/images/Anchen.jpg
