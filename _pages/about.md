@@ -34,12 +34,12 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 **Anchen Sun**, Yudong Tao, Mei-Ling Shyu, Shu-Ching Chen, Angela Blizzard, William Andrew Rothenberg, Dainelys Garcia, Jason F Jent
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://arxiv.org/pdf/2101.02587.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Mining the relationship between COVID-19 sentiment and market performance. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [UAV-Video-Based Rip Current Detection in Near-Shore Areas](https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13356639800002976&download=true), Anchen Sun, **Master Thesis**
 
 # 🎖 Honors and Awards
 - *2022.03* [Anchen Sun is 2022 Research Day Poster Session Winners in Machine Learning and Computer Science Category.](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html) 
