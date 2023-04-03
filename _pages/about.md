@@ -49,7 +49,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - *2019.01 - 2020.05*, University of Miami, Master of Science (M.S.) with thesis option in Electrical and Computer Engineering.
 - *2014.08 - 2017.12*, University of Miami, Bachelor of Science (B.S.) in Marine Science and Computer Science with Minor in Mathematics
 
-# 💬 Invited Lecture
+# 💬 Invited Talks
 - *2023.03*, AI module, ECE114 Global Challenges addressed by Engineering and Tech.
 
 # 💻 Internships
