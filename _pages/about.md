@@ -19,21 +19,20 @@ redirect_from:
 
 I am a Ph.D. candidate and RA&TA at the University of Miami College of Engineering Electrical and Computer Engineering Department.
 
-My research interest includes Deep Learning, Bioinformatics, Artificial Intelligence. I have published some papers at AI conferences and journals with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes Deep Learning, Bioinformatics, Artificial Intelligence. I have published some papers at AI conferences and journals with total <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.03*: &nbsp;🎉🎉 [Anchen Sun is 2022 Research Day Poster Session Winners in Machine Learning and Computer Science Category.](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html)
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IRI 2021</div><img src='images/Tantrum_Simulation_System.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Multimodal Data Integration for Interactive and Realistic Avatar Simulation in Augmented Reality](http://rvc.eng.miami.edu/Paper/2021/IRI2021_Sun.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Anchen Sun**, Yudong Tao, Mei-Ling Shyu, Shu-Ching Chen, Angela Blizzard, William Andrew Rothenberg, Dainelys Garcia, Jason F Jent
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
