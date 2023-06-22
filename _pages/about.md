@@ -34,8 +34,9 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 **Anchen Sun**, Yudong Tao, Mei-Ling Shyu, Shu-Ching Chen, Angela Blizzard, William Andrew Rothenberg, Dainelys Garcia, Jason F Jent
 
-[**Project**](https://arxiv.org/pdf/2101.02587.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Mining the relationship between COVID-19 sentiment and market performance. 
+**Project** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- [Mining the relationship between COVID-19 sentiment and market performance](https://arxiv.org/abs/2101.02587)
+- [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276)
 </div>
 </div>
 
