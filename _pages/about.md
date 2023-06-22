@@ -41,8 +41,8 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 </div>
 
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality
-  ](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), Anchen Sun, et al.
-- [Florida public hurricane loss model: Software system for insurance loss projection](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3086), Yudong Tao, Tianyi Wang, Anchen Sun, et al.
+  ](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), Anchen Sun, et al. **International Journal of Multimedia Data Engineering and Management (IJMDEM)**
+- [Florida public hurricane loss model: Software system for insurance loss projection](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3086), Yudong Tao, Tianyi Wang, Anchen Sun, et al. **Software: Practice and Experience**
 - [UAV-Video-Based Rip Current Detection in Nearshore Areas (Extended Paper)](https://arxiv.org/abs/2304.11783), Anchen Sun
 - [UAV-Video-Based Rip Current Detection in Near-Shore Areas](https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13356639800002976&download=true), Anchen Sun, **Master Thesis**
 
