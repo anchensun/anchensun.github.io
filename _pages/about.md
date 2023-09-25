@@ -54,6 +54,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 # 🎖 Honors and Awards
 - *2022.03* [Anchen Sun is 2022 Research Day Poster Session Winners in Machine Learning and Computer Science Category.](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html) 
+- *2016 - 2017* The Center for Computational Science (CCS) Fellow Program, University of Miami
 
 # 📖 Educations
 - *2020.08 - Present*, University of Miami, Doctor of Philosophy (Ph.D.) in Electrical and Computer Engineering (Advisor: Dr. Xiaodong Cai)
