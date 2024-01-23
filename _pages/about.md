@@ -35,22 +35,27 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 **Anchen Sun**, Zhibin Chen, Xiaodong Cai
 
 **Ongoing Project** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- [Busy Preschool Classrooms: A Test Case for Assessing Reliability of Automated Speech Transcription]()
+- [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342)
 - [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276)
 - [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001)
 </div>
 </div>
 
-- [Busy Preschool Classrooms: A Test Case for Assessing Reliability of Automated Speech Transcription](), Londoño, J., Elbaum, B., Sun, A., et al. **Florida Psycholinguistics Meeting** 
+**Journal and Conference Full Paper**
+- [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), Anchen Sun, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
 - [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, Anchen Sun, Xiaodong Cai, Saixing Zeng.
 - [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276), Anchen Sun, Zhibin Chen, Xiaodong Cai. 
-- [Dynamic Analysis of Corporate ESG Reports: a Study Based on Knowledge Management Model](), Ziyuan Xia, Anchen Sun, Xiaodong Cai, Saixing Zeng. **2023 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)** 
 - [UAV-Video-Based Rip Current Detection in Nearshore Areas (Extended Paper)](https://arxiv.org/abs/2304.11783), Anchen Sun
+- [A Survey on Modern Recommendation System based on Big Data](https://arxiv.org/abs/2206.02631), Anchen Sun, Yuanzhe Peng
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), Anchen Sun, et al. **International Journal of Multimedia Data Engineering and Management (IJMDEM)**
 - [Florida public hurricane loss model: Software system for insurance loss projection](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3086), Yudong Tao, Tianyi Wang, Anchen Sun, et al. **Software: Practice and Experience**
 - [Multimodal Data Integration for Interactive and Realistic Avatar Simulation in Augmented Reality](https://ieeexplore.ieee.org/abstract/document/9598519), Anchen Sun, et al. **2021 IEEE 22nd International Conference on Information Reuse and Integration for Data Science (IRI), Las Vegas, NV, USA**
 - [Mining the relationship between COVID-19 sentiment and market performance](https://arxiv.org/abs/2101.02587), Ziyuan Xia, Jeffery Chen, Anchen Sun
 - [UAV-Video-Based Rip Current Detection in Near-Shore Areas](https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13356639800002976&download=true), Anchen Sun, **Master Thesis**
+
+**Conference Poster and Presentation**
+- [Busy Preschool Classrooms: A Test Case for Assessing Reliability of Automated Speech Transcription](), Londoño, J., Elbaum, B., Sun, A., et al. **Florida Psycholinguistics Meeting**
+- [Dynamic Analysis of Corporate ESG Reports: a Study Based on Knowledge Management Model](), Ziyuan Xia, Anchen Sun, Xiaodong Cai, Saixing Zeng. **2023 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)**
 
 # 🎖 Honors and Awards
 - *2022.03* [Anchen Sun is 2022 Research Day Poster Session Winners in Machine Learning and Computer Science Category.](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html) 
