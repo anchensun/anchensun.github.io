@@ -45,7 +45,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), Anchen Sun, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
 - [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, Anchen Sun, Xiaodong Cai, Saixing Zeng.
 - [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276), Anchen Sun, Zhibin Chen, Xiaodong Cai. 
-- [UAV-Video-Based Rip Current Detection in Nearshore Areas (Extended Paper)](https://arxiv.org/abs/2304.11783), Anchen Sun
+- [Rip Current Detection in Nearshore Areas through UAV Video Analysis with Almost Local-Isometric Embedding Techniques on Sphere (Extended Paper)](https://arxiv.org/abs/2304.11783), Anchen Sun, Kaiqi Yang
 - [A Survey on Modern Recommendation System based on Big Data](https://arxiv.org/abs/2206.02631), Anchen Sun, Yuanzhe Peng
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), Anchen Sun, et al. **International Journal of Multimedia Data Engineering and Management (IJMDEM)**
 - [Florida public hurricane loss model: Software system for insurance loss projection](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3086), Yudong Tao, Tianyi Wang, Anchen Sun, et al. **Software: Practice and Experience**
