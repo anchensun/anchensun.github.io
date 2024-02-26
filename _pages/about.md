@@ -53,7 +53,8 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - [Mining the relationship between COVID-19 sentiment and market performance](https://arxiv.org/abs/2101.02587), Ziyuan Xia, Jeffery Chen, Anchen Sun
 - [UAV-Video-Based Rip Current Detection in Near-Shore Areas](https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13356639800002976&download=true), Anchen Sun, **Master Thesis**
 
-**Conference Poster and Presentation**
+**Symposium, Conference Poster, and Presentation**
+- [Adult-Child Linguistic Interaction in Early Child Care: An Initial View from Reliable Automated Speech Transcription](), Juan Londoño, Batya Elbaum, Anchen Sun, Riccardo Fusaroli, Sophia Meibohm, Roberto Lazo, Luis Estrada, Laura Vitale, Lynn K. Perry, Daniel S. Messinger **International Congress of Infant Studies(ICIS) 2024**
 - [Busy Preschool Classrooms: A Test Case for Assessing Reliability of Automated Speech Transcription](), Londoño, J., Elbaum, B., Sun, A., et al. **Florida Psycholinguistics Meeting**
 - [Dynamic Analysis of Corporate ESG Reports: a Study Based on Knowledge Management Model](), Ziyuan Xia, Anchen Sun, Xiaodong Cai, Saixing Zeng. **2023 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)**
 
