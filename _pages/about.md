@@ -54,6 +54,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - [UAV-Video-Based Rip Current Detection in Near-Shore Areas](https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13356639800002976&download=true), Anchen Sun, **Master Thesis**
 
 **Symposium, Conference Poster, and Presentation**
+- [Automated measurement of child MLU in a preschool classroom predicts assessed language ability](), Anchen Sun, Juan J Londoño, Batya Elbaum, Luis Estrada, Sophia Meibohm, Roberto Jose Lazo, Laura Vitale, Riccardo Fusaroli, Lynn K Perry, Daniel S Messinger, International Congress of Infant Studies (ICIS) 2024 Pre-Conference in Developmental Research using Machine Learning and Computer Vision
 - [Adult-Child Linguistic Interaction in Early Child Care: An Initial View from Reliable Automated Speech Transcription](), Juan Londoño, Batya Elbaum, Anchen Sun, Riccardo Fusaroli, Sophia Meibohm, Roberto Lazo, Luis Estrada, Laura Vitale, Lynn K. Perry, Daniel S. Messinger **International Congress of Infant Studies(ICIS) 2024**
 - [Busy Preschool Classrooms: A Test Case for Assessing Reliability of Automated Speech Transcription](), Londoño, J., Elbaum, B., Sun, A., et al. **Florida Psycholinguistics Meeting**
 - [Dynamic Analysis of Corporate ESG Reports: a Study Based on Knowledge Management Model](), Ziyuan Xia, Anchen Sun, Xiaodong Cai, Saixing Zeng. **2023 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)**
