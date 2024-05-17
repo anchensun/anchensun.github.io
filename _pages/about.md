@@ -32,7 +32,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276)
 
-**Anchen Sun**, Zhibin Chen, Xiaodong Cai
+**Anchen Sun**, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai
 
 **Ongoing Project** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342)
@@ -44,7 +44,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 **Journal and Conference Full Paper**
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), Anchen Sun, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
 - [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, Anchen Sun, Xiaodong Cai, Saixing Zeng.
-- [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276), Anchen Sun, Zhibin Chen, Xiaodong Cai. 
+- [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276), Anchen Sun, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai. 
 - [Rip Current Detection in Nearshore Areas through UAV Video Analysis with Almost Local-Isometric Embedding Techniques on Sphere (Extended Paper)](https://arxiv.org/abs/2304.11783), Anchen Sun, Kaiqi Yang
 - [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631), Ziyuan Xia, Anchen Sun, Jingyi Xu, Yuanzhe Peng, Rui Ma, Minghui Cheng
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), Anchen Sun, et al. **International Journal of Multimedia Data Engineering and Management (IJMDEM)**
