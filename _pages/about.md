@@ -72,4 +72,4 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - *2023.03*, AI module, ECE114 Global Challenges addressed by Engineering and Tech.
 
 # 💻 Internships
-- *2018.04 - 2018.08*, [Biorasi LLC](https://biorasi.com/), FL, U.S.
+- *2018.04 - 2018.08*, Statistical Programmer, [Biorasi LLC](https://biorasi.com/), FL, U.S.
