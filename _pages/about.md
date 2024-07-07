@@ -23,7 +23,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 
 # 🔥 News
-- *2022.03*: &nbsp;🎉🎉 [Anchen Sun is 2022 Research Day Poster Session Winners in Machine Learning and Computer Science Category.](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html)
+- *2024.07*: &nbsp;🎉🎉 [Mining the relationship between COVID-19 sentiment and market performance is published on PloS one](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306520)
 
 # 📝 Publications 
 
@@ -50,7 +50,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), **Anchen Sun**, et al. **International Journal of Multimedia Data Engineering and Management (IJMDEM)**
 - [Florida public hurricane loss model: Software system for insurance loss projection](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3086), Yudong Tao, Tianyi Wang, **Anchen Sun**, et al. **Software: Practice and Experience**
 - [Multimodal Data Integration for Interactive and Realistic Avatar Simulation in Augmented Reality](https://ieeexplore.ieee.org/abstract/document/9598519), **Anchen Sun**, et al. **2021 IEEE 22nd International Conference on Information Reuse and Integration for Data Science (IRI), Las Vegas, NV, USA**
-- [Mining the relationship between COVID-19 sentiment and market performance](https://arxiv.org/abs/2101.02587), Ziyuan Xia, Jeffery Chen, **Anchen Sun**, **PloS one**, Accepted
+- [Mining the relationship between COVID-19 sentiment and market performance](https://arxiv.org/abs/2101.02587), Ziyuan Xia, Jeffery Chen, **Anchen Sun**, **PloS one**
 - [UAV-Video-Based Rip Current Detection in Near-Shore Areas](https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13356639800002976&download=true), **Anchen Sun**, **Master Thesis**
 
 **Symposium, Conference Poster, and Presentation**
