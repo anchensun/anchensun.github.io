@@ -17,23 +17,24 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x' # Replace with the specific version if needed
+          python-version: '3.x'  # Replace with the specific version if needed
 
       - name: Install Dependencies
         run: |
           python -m venv venv  # Create virtual environment
           source venv/bin/activate  # Activate virtual environment
-          pip install -r requirements.txt  # Install dependencies from requirements.txt
+          cd ./google_scholar_crawler  # Navigate to google_scholar_crawler directory
+          pip install -r requirements.txt  # Install dependencies from the correct location
 
       - name: Run Script
         run: |
           source venv/bin/activate  # Activate virtual environment
-          cd ./google_scholar_crawler
+          cd ./google_scholar_crawler  # Make sure you're in the correct directory
           python main.py  # Run the main script
 
       - name: Commit and Push Results
         run: |
-          cd ./results
+          cd ./google_scholar_crawler/results  # Navigate to the results directory
           git init
           git config --local user.name "${GITHUB_ACTOR}"
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
