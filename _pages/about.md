@@ -23,11 +23,11 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 
 # 🔥 News
-- *2024.07*: &nbsp;🎉🎉 [Mining the relationship between COVID-19 sentiment and market performance is published on PloS one](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306520)
+- *2024.10*: &nbsp;🎉🎉 [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276) is got accepted by Briefings in Bioinformatics (BIB)
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/Figure1_AllSingleCancer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by Briefings in Bioinformatics</div><img src='images/Figure1_AllSingleCancer.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276)
@@ -44,7 +44,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 **Journal and Conference Full Paper**
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), **Anchen Sun**, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
 - [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng.
-- [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276), **Anchen Sun**, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai. 
+- [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276), **Anchen Sun**, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai. **Accepted by Briefings in Bioinformatics**
 - [Rip Current Detection in Nearshore Areas through UAV Video Analysis with Almost Local-Isometric Embedding Techniques on Sphere (Extended Paper)](https://arxiv.org/abs/2304.11783), **Anchen Sun**, Kaiqi Yang
 - [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631), Ziyuan Xia, **Anchen Sun**, Jingyi Xu, Yuanzhe Peng, Rui Ma, Minghui Cheng
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), **Anchen Sun**, et al. **International Journal of Multimedia Data Engineering and Management (IJMDEM)**
