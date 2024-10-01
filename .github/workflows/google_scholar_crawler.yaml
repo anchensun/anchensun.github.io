@@ -30,6 +30,7 @@ jobs:
         run: |
           source venv/bin/activate  # Activate virtual environment
           cd ./google_scholar_crawler  # Make sure you're in the correct directory
+          export GOOGLE_SCHOLAR_ID=${{ secrets.GOOGLE_SCHOLAR_ID }}  # Export the secret
           python main.py  # Run the main script
 
       - name: Commit and Push Results
