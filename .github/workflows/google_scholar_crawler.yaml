@@ -1,44 +1,26 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
-
-permissions:
-  contents: write
+on:
+  page_build:
+  schedule:
+    - cron:  '0 8 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'  # Replace with the specific version if needed
-
-      - name: Install Dependencies
+      - name: Install Reqs
         run: |
-          python -m venv venv  # Create virtual environment
-          source venv/bin/activate  # Activate virtual environment
-          cd ./google_scholar_crawler  # Navigate to google_scholar_crawler directory
-          pip install -r requirements.txt  # Install dependencies from the correct location
-
-      - name: Run Script
+          sudo apt-get install python3-setuptools
+      - name: Run
         run: |
-          source venv/bin/activate  # Activate virtual environment
-          cd ./google_scholar_crawler  # Make sure you're in the correct directory
-          export GOOGLE_SCHOLAR_ID=${{ secrets.GOOGLE_SCHOLAR_ID }}  # Export the secret
-          python main.py  # Run the main script
-
-      - name: Commit and Push Results
-        run: |
-          cd ./google_scholar_crawler/results  # Navigate to the results directory
+          cd ./google_scholar_crawler
+          pip3 install -r requirements.txt
+          python3 main.py
+          cd ./results
           git init
           git config --local user.name "${GITHUB_ACTOR}"
-          git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           git add *.json
           git commit -m "Updated Citation Data"
