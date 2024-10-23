@@ -27,7 +27,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by Briefings in Bioinformatics</div><img src='images/Figure1_AllSingleCancer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by Briefings in Bioinformatics</div><img src='images/Figure3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276)
