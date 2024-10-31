@@ -23,7 +23,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 [Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://arxiv.org/abs/2306.06276) is got accepted by Briefings in Bioinformatics (BIB)
+- *2024.10*: &nbsp;🎉🎉 [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544) is got accepted by Briefings in Bioinformatics (BIB)
 
 # 📝 Publications 
 
