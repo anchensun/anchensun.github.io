@@ -24,7 +24,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 # 🔥 News
 - *2024.10*: &nbsp;🎉🎉 [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544) is got accepted by Briefings in Bioinformatics (BIB)
-- *2024.11*: &nbsp;🎉🎉 Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023 is got accepted by Frontiers of Architectural Research (FoAR)
+- *2024.11*: &nbsp;🎉🎉 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481) is got accepted by Frontiers of Architectural Research (FoAR)
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics</div><img src='images/Figure3.png' alt="sym" width="100%"></div></div>
@@ -52,10 +52,10 @@ Young children spend substantial portions of their waking hours in noisy prescho
 </div>
 
 **Journal and Conference Full Paper**
-- Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023, Jingyi Xu, Minghui Chen, **Anchen Sun**. **Accepted by Frontiers of Architectural Research**
+- [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481), Jingyi Xu, Minghui Chen, **Anchen Sun**. **Frontiers of Architectural Research (FoAR)**
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), **Anchen Sun**, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
 - [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng.
-- [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544), **Anchen Sun**, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai. **Briefings in Bioinformatics**
+- [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544), **Anchen Sun**, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai. **Briefings in Bioinformatics (BIB)**
 - [Rip Current Detection in Nearshore Areas through UAV Video Analysis with Almost Local-Isometric Embedding Techniques on Sphere (Extended Paper)](https://arxiv.org/abs/2304.11783), **Anchen Sun**, Kaiqi Yang
 - [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631), Ziyuan Xia, **Anchen Sun**, Jingyi Xu, Yuanzhe Peng, Rui Ma, Minghui Cheng
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), **Anchen Sun**, et al. **International Journal of Multimedia Data Engineering and Management (IJMDEM)**
