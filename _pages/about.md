@@ -26,6 +26,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - *2024.10*: &nbsp;🎉🎉 [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544) is got published by Briefings in Bioinformatics (BIB)
 - *2024.11*: &nbsp;🎉🎉 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481) is got published by Frontiers of Architectural Research (FoAR)
 - *2024.12*: &nbsp;🎉🎉 [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631) is got accepted by IEEE Access
+- *2024.12*: &nbsp;🎉🎉 Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department on 2024!
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics</div><img src='images/Figure3.png' alt="sym" width="100%"></div></div>
@@ -73,7 +74,7 @@ Young children spend substantial portions of their waking hours in noisy prescho
 - [Dynamic Analysis of Corporate ESG Reports: a Study Based on Knowledge Management Model](), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng. **2023 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)**
 
 # 🎖 Honors and Awards
-- *2024.11* Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department on 2025!
+- *2024.12* Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department on 2024!
 - *2022.03* [Anchen Sun is 2022 Research Day Poster Session Winners in Machine Learning and Computer Science Category.](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html) 
 - *2016 - 2017* [2016-17 Frost Institute for Date Science & Computing Fellows, University of Miami](https://idsc.miami.edu/2016-2017-idsc-fellows-present-interdisciplinary-projects/)
 
