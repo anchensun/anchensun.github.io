@@ -25,7 +25,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 # 🔥 News
 - *2024.10*: &nbsp;🎉🎉 [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544) is got published by Briefings in Bioinformatics (BIB)
 - *2024.11*: &nbsp;🎉🎉 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481) is got published by Frontiers of Architectural Research (FoAR)
-- *2024.12*: &nbsp;🎉🎉 [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631) is got accepted by IEEE Access
+- *2024.12*: &nbsp;🎉🎉 [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://ieeexplore.ieee.org/document/10798416) is got published by IEEE Access
 - *2024.12*: &nbsp;🎉🎉 Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department on 2024!
 # 📝 Publications 
 
