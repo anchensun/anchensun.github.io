@@ -32,6 +32,7 @@ jobs:
           cd ./google_scholar_crawler  # Make sure you're in the correct directory
           export GOOGLE_SCHOLAR_ID=${{ secrets.GOOGLE_SCHOLAR_ID }}  # Export the secret
           python main.py  # Run the main script
+        shell: bash
 
       - name: Commit and Push Results
         run: |
