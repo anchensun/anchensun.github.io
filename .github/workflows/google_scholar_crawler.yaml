@@ -19,19 +19,29 @@ jobs:
         with:
           python-version: '3.x'  # Replace with the specific version if needed
 
-      - name: Install Dependencies
+      - name: Setup environment, install deps & run crawler
+        shell: bash
         run: |
-          python -m venv venv  # Create virtual environment
-          source venv/bin/activate  # Activate virtual environment
-          cd ./google_scholar_crawler  # Navigate to google_scholar_crawler directory
-          pip install -r requirements.txt  # Install dependencies from the correct location
+          python -m venv venv                        # create venv
+          source venv/bin/activate                   # activate it
+          cd ./google_scholar_crawler                # enter your project dir
+          pip install -r requirements.txt            # install deps
+          export GOOGLE_SCHOLAR_ID=${{ secrets.GOOGLE_SCHOLAR_ID }}  # set secret
+          python main.py                             # run your script
 
-      - name: Run Script
-        run: |
-          source venv/bin/activate  # Activate virtual environment
-          cd ./google_scholar_crawler  # Make sure you're in the correct directory
-          export GOOGLE_SCHOLAR_ID=${{ secrets.GOOGLE_SCHOLAR_ID }}  # Export the secret
-          python main.py  # Run the main script
+      #- name: Install Dependencies
+      #  run: |
+      #    python -m venv venv  # Create virtual environment
+      #    source venv/bin/activate  # Activate virtual environment
+      #    cd ./google_scholar_crawler  # Navigate to google_scholar_crawler directory
+      #    pip install -r requirements.txt  # Install dependencies from the correct location
+
+      #- name: Run Script
+      #  run: |
+      #    source venv/bin/activate  # Activate virtual environment
+      #    cd ./google_scholar_crawler  # Make sure you're in the correct directory
+      #    export GOOGLE_SCHOLAR_ID=${{ secrets.GOOGLE_SCHOLAR_ID }}  # Export the secret
+      #    python main.py  # Run the main script
 
       - name: Commit and Push Results
         run: |
