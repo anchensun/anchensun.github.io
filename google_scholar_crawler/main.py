@@ -1,4 +1,3 @@
-'''
 from scholarly import scholarly, ProxyGenerator
 import jsonpickle
 import json
@@ -93,3 +92,4 @@ if __name__ == "__main__":
     }
     with open("results/gs_data_shieldsio.json", "w", encoding="utf-8") as f:
         json.dump(shieldio_data, f, indent=2, ensure_ascii=False)
+'''
