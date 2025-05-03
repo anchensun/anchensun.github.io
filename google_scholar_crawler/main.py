@@ -7,7 +7,7 @@ import os
 # Setup proxy
 pg = ProxyGenerator()
 # supply a repeat count (e.g. try each proxy once)
-pg.FreeProxies(repeat=5)
+pg.FreeProxies()
 scholarly.use_proxy(pg)
 
 author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
