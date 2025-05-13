@@ -76,9 +76,11 @@ Young children spend substantial portions of their waking hours in noisy prescho
 - [Dynamic Analysis of Corporate ESG Reports: a Study Based on Knowledge Management Model](), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng. **2023 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)**
 
 # 🎖 Honors and Awards
+- *2025.05* EPIC 2025 Pitch and Innovation Challenge Finalist!
 - *2024.12* Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department on 2024!
 - *2022.03* [Anchen Sun is 2022 Research Day Poster Session Winners in Machine Learning and Computer Science Category.](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html) 
 - *2016 - 2017* [2016-17 Frost Institute for Date Science & Computing Fellows, University of Miami](https://idsc.miami.edu/2016-2017-idsc-fellows-present-interdisciplinary-projects/)
+- *2007.07* National Olympiad in Informatics in Provinces (NOIP) Jiangsu 1st Award
 
 # 📖 Educations
 - *2020.08 - Present*, University of Miami, Doctor of Philosophy (Ph.D.) in Electrical and Computer Engineering (Advisor: Dr. Xiaodong Cai)
