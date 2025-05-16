@@ -55,9 +55,10 @@ Young children spend substantial portions of their waking hours in noisy prescho
 </div>
 
 **Journal and Conference Full Paper**
+- [Who Said What WSW 2.0? Enhanced Automated Analysis of Preschool Classroom Speech](https://arxiv.org/abs/2505.09972), **Anchen Sun**, Tiantian Feng, Gabriela Gutierrez, Juan J Londono, Anfeng Xu, Batya Elbaum, Shrikanth Narayanan, Lynn K Perry, Daniel S Messinger, arXiv
 - [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481), Jingyi Xu, Minghui Chen, **Anchen Sun**. **Frontiers of Architectural Research (FoAR)**
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), **Anchen Sun**, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
-- [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng.
+- [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng, **Journal of Management Analytics** (Minor Revision)
 - [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544), **Anchen Sun**, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai. **Briefings in Bioinformatics (BIB)**
 - [Rip Current Detection in Nearshore Areas through UAV Video Analysis with Almost Local-Isometric Embedding Techniques on Sphere (Extended Paper)](https://arxiv.org/abs/2304.11783), **Anchen Sun**, Kaiqi Yang
 - [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631), Ziyuan Xia, **Anchen Sun**, Jingyi Xu, Yuanzhe Peng, Rui Ma, Minghui Cheng
