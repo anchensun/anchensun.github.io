@@ -28,6 +28,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - *2024.12*: &nbsp;🎉🎉 Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department on 2024!
 - *2025.05*: &nbsp;🎉🎉 EPIC 2025 Pitch and Innovation Challenge Finalist!
 - *2025.06*: &nbsp;🎉🎉 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://doi.org/10.1016/j.foar.2024.10.002) is online with the final version on Frontiers of Architectural Research (FoAR)
+- *2025.06*: &nbsp;🎉🎉 [Who Said What (WSW2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://arxiv.org/abs/2505.09972) is accepted by 2025 IEEE International Conference on Development and Learning (ICDL 2025), Prague
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics</div><img src='images/Figure3.png' alt="sym" width="100%"></div></div>
@@ -55,7 +56,7 @@ Young children spend substantial portions of their waking hours in noisy prescho
 </div>
 
 **Journal and Conference Full Paper**
-- [Who Said What WSW 2.0? Enhanced Automated Analysis of Preschool Classroom Speech](https://arxiv.org/abs/2505.09972), **Anchen Sun**, Tiantian Feng, Gabriela Gutierrez, Juan J Londono, Anfeng Xu, Batya Elbaum, Shrikanth Narayanan, Lynn K Perry, Daniel S Messinger, arXiv
+- [Who Said What (WSW 2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://arxiv.org/abs/2505.09972), **Anchen Sun**, Tiantian Feng, Gabriela Gutierrez, Juan J Londono, Anfeng Xu, Batya Elbaum, Shrikanth Narayanan, Lynn K Perry, Daniel S Messinger, accepted by **2025 IEEE International Conference on Development and Learning (ICDL 2025)**
 - [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481), Jingyi Xu, Minghui Chen, **Anchen Sun**. **Frontiers of Architectural Research (FoAR)**
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), **Anchen Sun**, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
 - [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng, **Journal of Management Analytics** (Minor Revision)
