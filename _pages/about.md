@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. candidate and RA&TA at the University of Miami College of Engineering Electrical and Computer Engineering Department.
+I am an AI/ML Software Engineer at Google LLC. I awarded my Ph.D. degree at the University of Miami College of Engineering Electrical and Computer Engineering Department.
 
 My research interest includes Deep Learning, Bioinformatics, Artificial Intelligence, Engineering Management. I have published some papers at conferences and journals with total <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'>google scholar citations <strong><span id='total_cit'>87</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
