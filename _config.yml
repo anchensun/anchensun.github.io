@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Anchen Sun"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "University of Miami"
-  location         : "Miami, FL, U.S."
+  bio              : "Google LLC"
+  location         : "Sunnyvale, CA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=369nl3gAAAAJ"
-  email            : "asun@miami.edu"
+  email            : "anchensun95@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
