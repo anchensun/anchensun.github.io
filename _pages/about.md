@@ -86,7 +86,7 @@ Young children spend substantial portions of their waking hours in noisy prescho
 - *2007.07* National Olympiad in Informatics in Provinces (NOIP) Jiangsu 1st Award
 
 # 📖 Educations
-- *2020.08 - Present*, University of Miami, Doctor of Philosophy (Ph.D.) in Electrical and Computer Engineering (Advisor: Dr. Xiaodong Cai)
+- *2020.08 - 2025.08*, University of Miami, Doctor of Philosophy (Ph.D.) in Electrical and Computer Engineering (Advisor: Dr. Xiaodong Cai)
 - *2019.01 - 2020.05*, University of Miami, Master of Science (M.S.) with thesis option in Electrical and Computer Engineering.
 - *2014.08 - 2017.12*, University of Miami, Bachelor of Science (B.S.) in Marine Science and Computer Science with Minor in Mathematics
 
