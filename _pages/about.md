@@ -29,7 +29,7 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 - *2025.06*: &nbsp;🎉🎉 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://doi.org/10.1016/j.foar.2024.10.002) is online with the final version on Frontiers of Architectural Research (FoAR)
 - *2025.09*: &nbsp;🎉🎉 [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001) is accepted by Journal of Management Analytics
 - *2025.10*: &nbsp;🎉🎉 [Who Said What (WSW2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://ieeexplore.ieee.org/document/11204438) is got published by 2025 IEEE International Conference on Development and Learning (ICDL 2025), Prague
-- *2025.10*: &nbsp;🎉🎉 [Global evolution of social responsibility in smart-service industries: insights from a cross-sector hybrid large language models approach]() is accepted by Corporate Social Responsibility and Environmental Management
+- *2025.10*: &nbsp;🎉🎉 [Global Evolution of Social Responsibility in Smart-Service Industries: Insights from A Cross-Sector Hybrid Large Language Models Approach]() is accepted by Corporate Social Responsibility and Environmental Management
 - 
 # 📝 Publications 
 
@@ -58,7 +58,7 @@ Young children spend substantial portions of their waking hours in noisy prescho
 </div>
 
 **Journal and Conference Full Paper**
-- [Global evolution of social responsibility in smart-service industries: insights from a cross-sector hybrid large language models approach](), Ziyuan Xia, Saixing Zeng, Anchen Sun, Xiaodong Cai, **Corporate Social Responsibility and Environmental Management**, Accepted
+- [Global Evolution of Social Responsibility in Smart-Service Industries: Insights from A Cross-Sector Hybrid Large Language Models Approach](), Ziyuan Xia, Saixing Zeng, Anchen Sun, Xiaodong Cai, **Corporate Social Responsibility and Environmental Management**, Accepted
 - [Who Said What (WSW 2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://ieeexplore.ieee.org/document/11204438), **Anchen Sun**, Tiantian Feng, Gabriela Gutierrez, Juan J Londono, Anfeng Xu, Batya Elbaum, Shrikanth Narayanan, Lynn K Perry, Daniel S Messinger **2025 IEEE International Conference on Development and Learning (ICDL 2025)**
 - [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481), Jingyi Xu, Minghui Chen, **Anchen Sun**. **Frontiers of Architectural Research (FoAR)**
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), **Anchen Sun**, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
