@@ -23,13 +23,14 @@ My research interest includes Deep Learning, Bioinformatics, Artificial Intellig
 
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544) is got published by Briefings in Bioinformatics (BIB)
 - *2024.12*: &nbsp;🎉🎉 [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://ieeexplore.ieee.org/document/10798416) is got published by IEEE Access
 - *2024.12*: &nbsp;🎉🎉 Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department on 2024!
 - *2025.05*: &nbsp;🎉🎉 EPIC 2025 Pitch and Innovation Challenge Finalist!
 - *2025.06*: &nbsp;🎉🎉 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://doi.org/10.1016/j.foar.2024.10.002) is online with the final version on Frontiers of Architectural Research (FoAR)
-- *2025.06*: &nbsp;🎉🎉 [Who Said What (WSW2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://arxiv.org/abs/2505.09972) is accepted by 2025 IEEE International Conference on Development and Learning (ICDL 2025), Prague
 - *2025.09*: &nbsp;🎉🎉 [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001) is accepted by Journal of Management Analytics
+- *2025.10*: &nbsp;🎉🎉 [Who Said What (WSW2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://ieeexplore.ieee.org/document/11204438) is got published by 2025 IEEE International Conference on Development and Learning (ICDL 2025), Prague
+- *2025.10*: &nbsp;🎉🎉 [Global evolution of social responsibility in smart-service industries: insights from a cross-sector hybrid large language models approach]() is accepted by Corporate Social Responsibility and Environmental Management
+- 
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics</div><img src='images/Figure3.png' alt="sym" width="100%"></div></div>
@@ -57,10 +58,11 @@ Young children spend substantial portions of their waking hours in noisy prescho
 </div>
 
 **Journal and Conference Full Paper**
-- [Who Said What (WSW 2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://arxiv.org/abs/2505.09972), **Anchen Sun**, Tiantian Feng, Gabriela Gutierrez, Juan J Londono, Anfeng Xu, Batya Elbaum, Shrikanth Narayanan, Lynn K Perry, Daniel S Messinger, accepted by **2025 IEEE International Conference on Development and Learning (ICDL 2025)**
+- [Global evolution of social responsibility in smart-service industries: insights from a cross-sector hybrid large language models approach](), Ziyuan Xia, Saixing Zeng, Anchen Sun, Xiaodong Cai, **Corporate Social Responsibility and Environmental Management**, Accepted
+- [Who Said What (WSW 2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://ieeexplore.ieee.org/document/11204438), **Anchen Sun**, Tiantian Feng, Gabriela Gutierrez, Juan J Londono, Anfeng Xu, Batya Elbaum, Shrikanth Narayanan, Lynn K Perry, Daniel S Messinger **2025 IEEE International Conference on Development and Learning (ICDL 2025)**
 - [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481), Jingyi Xu, Minghui Chen, **Anchen Sun**. **Frontiers of Architectural Research (FoAR)**
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), **Anchen Sun**, et al. **2024 IEEE International Conference on Development and Learning (ICDL)** 
-- [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng, **Journal of Management Analytics** Accept
+- [Dynamic Analysis of Corporate ESG Reports: A Model of Evolutionary Trends](https://arxiv.org/abs/2309.07001), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng, **Journal of Management Analytics** Accepted
 - [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544), **Anchen Sun**, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai. **Briefings in Bioinformatics (BIB)**
 - [Rip Current Detection in Nearshore Areas through UAV Video Analysis with Almost Local-Isometric Embedding Techniques on Sphere (Extended Paper)](https://arxiv.org/abs/2304.11783), Kaiqi Yang, Stephen B. Leatherman, **Anchen Sun**, **PloS one**, Major Revision
 - [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631), Ziyuan Xia, **Anchen Sun**, Jingyi Xu, Yuanzhe Peng, Rui Ma, Minghui Cheng
