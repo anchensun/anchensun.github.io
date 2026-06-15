@@ -19,7 +19,7 @@ redirect_from:
 
 I am an AI/ML Software Engineer at Google LLC, where I work in the **AI2 (Artificial Intelligence & Infrastructure)** organization on **AI Infrastructure**, **AI Agents**, and **Multi-Agent Systems** — building the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. from the University of Miami College of Engineering, Department of Electrical and Computer Engineering.
 
-My research interests span AI Infrastructure, AI Agents and Multi-Agent Systems, Deep Learning, Computational Psychology, and Engineering Management. I have published a number of papers at conferences and journals, with total <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'>Google Scholar citations <strong><span id='total_cit'>87</span></strong></a> (you can also use the Google Scholar badge <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=1a73e8&style=flat&label=citations"></a>).
+My research interests span AI Infrastructure, AI Agents and Multi-Agent Systems, Deep Learning, Computational Psychology, and Engineering Management. I have published a number of papers at conferences and journals, with total <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'>Google Scholar citations <strong><span id='total_cit'>87</span></strong></a> <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=1a73e8&style=flat&label=citations"></a>.
 
 
 # 🔥 News
