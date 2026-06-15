@@ -70,6 +70,8 @@ $g-state-blue:    rgba(26, 115, 232, 0.08);
 
 // layered Material low elevation (rare — hover only)
 $g-elev-1: 0 1px 2px rgba(60, 64, 67, 0.30), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+// higher Material elevation for the hover-zoomed figure
+$g-elev-2: 0 10px 28px rgba(60, 64, 67, 0.28), 0 3px 8px rgba(60, 64, 67, 0.18);
 
 // ---- Global type ------------------------------------------------------------
 html { font-size: 15px; }
@@ -314,12 +316,12 @@ p.author__bio {
     padding: 1em;
     box-sizing: border-box;
 
+    overflow: visible;                         // let the zoomed figure spill out
+
     > div {                                    // theme's inner wrapper (holds badge + img)
       position: relative;
       width: 100%;
     }
-
-    a { display: block; width: 100%; line-height: 0; }
 
     img {
       max-width: 100%;
@@ -328,11 +330,21 @@ p.author__bio {
       box-shadow: none;
       border: 0;
       object-fit: contain;                     // never crop figures/tables
-      cursor: zoom-in;                         // click to open full resolution
-      transition: none;
+      cursor: zoom-in;                         // hover to magnify
+      position: relative;
+      transform-origin: center center;
+      transition: transform 0.45s ease, box-shadow 0.45s ease;  // smooth zoom out
+    }
+
+    // Magnify the figure only after the cursor lingers ~1s (transition-delay),
+    // so a quick pass-over does nothing. Zoom-out has no delay (base transition).
+    &:hover img {
+      transform: scale(1.55);
+      z-index: 20;
+      box-shadow: $g-elev-2;
+      transition-delay: 1s;
     }
   }
-  &:hover .paper-box-image img { transform: none; }   // kill the template scale()
 
   .paper-box-text {
     order: 2;

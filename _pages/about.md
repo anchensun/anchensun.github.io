@@ -32,7 +32,7 @@ My research interests span AI Infrastructure, AI Agents and Multi-Agent Systems,
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Corporate Social Responsibility and Environmental Management</div><a href='images/SSSR_Figure.png' target='_blank' rel='noopener' title='Click to view full size'><img src='images/SSSR_Figure.png' alt="Smart Service Social Responsibility framework" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Corporate Social Responsibility and Environmental Management</div><img src='images/SSSR_Figure.png' alt="Smart Service Social Responsibility framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Global Evolution of Social Responsibility in Smart-Service Industries: Insights From a Cross-Sector Hybrid Large Language Models Approach](https://onlinelibrary.wiley.com/doi/10.1002/csr.70257)
@@ -46,7 +46,7 @@ The rapid development of smart services has driven the evolution of social respo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICDL 2025</div><a href='images/WSW2_Table.png' target='_blank' rel='noopener' title='Click to view full size'><img src='images/WSW2_Table.png' alt="WSW 2.0 classroom language feature results" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICDL 2025</div><img src='images/WSW2_Table.png' alt="WSW 2.0 classroom language feature results" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Who Said What (WSW 2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://ieeexplore.ieee.org/document/11204438)
@@ -58,7 +58,7 @@ This paper introduces an automated framework (WSW 2.0) for analyzing vocal inter
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers of Architectural Research</div><a href='images/LEED_Paper.jpg' target='_blank' rel='noopener' title='Click to view full size'><img src='images/LEED_Paper.jpg' alt="LEED project distribution among top architecture firms, 2000–2020" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers of Architectural Research</div><img src='images/LEED_Paper.jpg' alt="LEED project distribution among top architecture firms, 2000–2020" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://doi.org/10.1016/j.foar.2024.10.002)
@@ -70,7 +70,7 @@ Amid increasing global environmental concerns, the architectural industry is und
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICDL 2024 Full Oral Presentation</div><a href='images/ICDL2024Workflow.png' target='_blank' rel='noopener' title='Click to view full size'><img src='images/ICDL2024Workflow.png' alt="Who Said What automated speech analysis workflow" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICDL 2024 Full Oral Presentation</div><img src='images/ICDL2024Workflow.png' alt="Who Said What automated speech analysis workflow" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://ieeexplore.ieee.org/document/10644508/)
