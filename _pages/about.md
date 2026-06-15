@@ -23,11 +23,11 @@ My research interests span AI Infrastructure, AI Agents and Multi-Agent Systems,
 
 
 # 🔥 News
-- *2025.06*: &nbsp;🎉🎉 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://doi.org/10.1016/j.foar.2024.10.002) is online with the final version on Frontiers of Architectural Research (FoAR)
-- *2025.10*: &nbsp;🎉🎉 [Who Said What (WSW2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://ieeexplore.ieee.org/document/11204438) is got published by 2025 IEEE International Conference on Development and Learning (ICDL 2025), Prague
-- *2025.10*: &nbsp;🎉🎉 [Analyzing Corporate ESG Reporting Through Data Mining: Evolutionary Trends and Strategic Model](https://doi.org/10.1080/23270012.2025.2563507) is got published by Journal of Management Analytics
-- *2026.03*: &nbsp;🎉🎉 [Global Evolution of Social Responsibility in Smart-Service Industries: Insights From a Cross-Sector Hybrid Large Language Models Approach](https://onlinelibrary.wiley.com/doi/10.1002/csr.70257) is published in Corporate Social Responsibility and Environmental Management, 33(2), 1815-1831
-- *2026.05*: &nbsp;🎉🎉 [Smart Service Social Responsibility (SSSR) Agent for Sustainability Disclosure and Corporate Governance]() has presented at the 2026 POMS Annual Conference, Grand Sierra Resort, Reno, NV
+- *2025.06* &nbsp;🎉🎉 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://doi.org/10.1016/j.foar.2024.10.002) is online with the final version on Frontiers of Architectural Research (FoAR)
+- *2025.10* &nbsp;🎉🎉 [Who Said What (WSW2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://ieeexplore.ieee.org/document/11204438) is got published by 2025 IEEE International Conference on Development and Learning (ICDL 2025), Prague
+- *2025.10* &nbsp;🎉🎉 [Analyzing Corporate ESG Reporting Through Data Mining: Evolutionary Trends and Strategic Model](https://doi.org/10.1080/23270012.2025.2563507) is got published by Journal of Management Analytics
+- *2026.03* &nbsp;🎉🎉 [Global Evolution of Social Responsibility in Smart-Service Industries: Insights From a Cross-Sector Hybrid Large Language Models Approach](https://onlinelibrary.wiley.com/doi/10.1002/csr.70257) is published in Corporate Social Responsibility and Environmental Management, 33(2), 1815-1831
+- *2026.05* &nbsp;🎉🎉 [Smart Service Social Responsibility (SSSR) Agent for Sustainability Disclosure and Corporate Governance]() has presented at the 2026 POMS Annual Conference, Grand Sierra Resort, Reno, NV
 
 
 # 📝 Publications 
