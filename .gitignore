@@ -1,3 +1,12 @@
 _site/
 push.sh
 .DS_Store
+
+# Local preview scratch — not part of the site (Jekyll/GitHub Pages builds main.css)
+preview.html
+assets/css/main.css
+.jekyll-cache/
+.sass-cache/
+
+# Windows "mark of the web" metadata sidecar files
+*Zone.Identifier

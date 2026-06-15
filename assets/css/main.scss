@@ -40,70 +40,363 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* =============================================================
+   GOOGLE "RESEARCH SURFACE" RESTYLE  — final synthesis
+   research.google / ai.google technical aesthetic.
+   Appended after the theme @imports; later rules win on equal
+   specificity. ONE accent: action-blue #1a73e8. Neutrals carry
+   everything else. Paint-only over the theme's responsive layout.
+   ============================================================= */
+
+// ---- Google tokens ----------------------------------------------------------
+$g-blue:          #1a73e8;   // single action accent
+$g-blue-700:      #1765cc;   // hover / pressed
+$g-blue-container:#e8f0fe;   // tonal container (chip fill)
+$g-on-container:  #174ea6;   // on-container text (AA on #e8f0fe = 6.85:1)
+$g-text:          #202124;   // primary text
+$g-text-2:        #5f6368;   // secondary text
+$g-hairline:      #dadce0;   // dividers / borders
+$g-hairline-2:    #c6cacd;   // stronger hairline (hover border)
+$g-surface:       #ffffff;   // base surface
+$g-surface-sub:   #f8f9fa;   // subtle fill
+$g-surface-sub2:  #f1f3f4;   // chip / code fill
+
+$g-sans: "Google Sans", "Roboto", "Helvetica Neue", Arial, sans-serif;
+$g-mono: "Roboto Mono", "SFMono-Regular", Consolas, monospace;
+
+// state-layer overlays (the most recognizable MD3 interaction)
+$g-state-neutral: rgba(60, 64, 67, 0.08);
+$g-state-blue:    rgba(26, 115, 232, 0.08);
+
+// layered Material low elevation (rare — hover only)
+$g-elev-1: 0 1px 2px rgba(60, 64, 67, 0.30), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+
+// ---- Global type ------------------------------------------------------------
+html { font-size: 15px; }
+
+body {
+  font-family: $g-sans;
+  color: $g-text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__content h1, .page__content h2, .page__content h3 {
+  font-family: $g-sans;
+  color: $g-text;
+  letter-spacing: -0.005em;
+}
+
+// ---- Links: single blue accent, underline only on hover ---------------------
+a { color: $g-blue; }
+a:hover, a:focus { color: $g-blue-700; }
+
+.page__content a {
+  color: $g-blue;
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: $g-blue-700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+// ---- Masthead: crisp white bar with a single hairline base ------------------
+.masthead {
+  background: $g-surface;
+  border-bottom: 1px solid $g-hairline;
+  box-shadow: none;
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+}
+
+.greedy-nav {
+  background: transparent;
+
+  .visible-links li.masthead__menu-item a {
+    font-family: $g-sans;
+    font-weight: 500;
+    font-size: 0.82em;
+    letter-spacing: 0.01em;
+    color: $g-text-2;
+    padding: 0.4em 0.9em;
+    border-radius: 9999px;                 // pill state-layer target
+    transition: background 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      color: $g-text;
+      background: $g-state-neutral;         // neutral 8% state layer
+    }
+  }
+
+  // active-page indicator: the theme's sliding bar, in blue
+  .visible-links a:before {
+    height: 2px;
+    background: $g-blue;
+  }
+
+  button { color: $g-text-2; }
+}
+
+// ---- Sidebar: wrap the real .profile_box as one soft elevation card ----------
+.profile_box {
+  background: $g-surface;
+  border: 1px solid $g-hairline;
+  border-radius: 16px;
+  box-shadow: $g-elev-1;
+  padding: 1.5em 1.25em;
+}
+
+// IMG only — never touch .author__avatar wrapper display (mobile table-cell).
+.author__avatar img {
+  border-radius: 50%;
+  border: 1px solid $g-hairline;            // hairline ring, not a fat 4px border
+  box-shadow: none;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: $g-elev-1;
+    transform: none;                         // kill the template scale()
+  }
+}
+
+h3.author__name {
+  font-family: $g-sans;
+  font-weight: 500;
+  color: $g-text;
+  letter-spacing: -0.01em;
+}
+
+p.author__bio {
+  font-family: $g-sans;
+  color: $g-text-2;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.author__urls-wrapper { font-family: $g-sans; }
+
+.author__urls.social-icons li,
+.author__urls li {
+  font-size: 0.86em;
+  color: $g-text-2;
+  line-height: 1.7;
+}
+
+.author__urls a {
+  display: inline-block;
+  color: $g-text-2;
+  text-decoration: none;
+  border-radius: 9999px;
+  padding: 0.05em 0.4em;
+  margin-left: -0.4em;
+  transition: background 0.15s ease, color 0.15s ease;
+
+  i {
+    color: $g-text-2;
+    transition: color 0.15s ease;
+  }
+
+  &:hover {
+    color: $g-blue;
+    background: $g-state-blue;                // blue 8% state layer
+    text-decoration: none;
+  }
+  &:hover i { color: $g-blue; }
+
+  // hide the theme's tooltip caret for a cleaner sidebar
+  &:before,
+  &:after { display: none; }
+}
+
+// ---- Section headings: hairline rule, keep emoji, no competing accents ------
+.page__content {
+  h1 {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: $g-text;
+    padding-bottom: 0.35em;
+    margin-top: 1.7em;
+    border-bottom: 1px solid $g-hairline;    // hairline replaces 2px tinted band
+  }
+
+  h2 {
+    font-weight: 500;
+    color: $g-text;
+  }
+
+  p, li {
+    color: $g-text;
+    line-height: 1.65;
+  }
+
+  // inline code keeps the technical-credibility cue
+  code {
+    font-family: $g-mono;
+    background: $g-surface-sub2;
+    color: $g-text;
+    border-radius: 4px;
+    padding: 0.1em 0.35em;
+    font-size: 0.85em;
+  }
+}
+
+// ---- Buttons: Google-blue pill (theme .btn / .btn--inverse) -----------------
+.btn,
+.btn--inverse {
+  border-radius: 9999px;
+  font-family: $g-sans;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  box-shadow: none;
+  transition: background 0.15s ease, box-shadow 0.2s ease, color 0.15s ease;
+}
+
+.btn--inverse {
+  background: $g-blue;
+  border: 1px solid $g-blue;
+  color: #fff;
+
+  &:hover {
+    background: $g-blue-700;
+    border-color: $g-blue-700;
+    color: #fff;
+    box-shadow: $g-elev-1;
+  }
+}
+
+// ---- Publication cards: flat research surface -------------------------------
+// Structural flex layout (display/order/widths + $medium breakpoint) is
+// restored here verbatim — it originally lived in this custom block, not in the
+// theme. Paint rules then give it the calm research-surface look.
+// Stacked showcase: the figure spans the FULL card width on top so detailed
+// diagrams/tables are legible (the content column is ~705px — far wider than a
+// side-by-side 40% slot). The abstract sits below. Click any figure to open it
+// at full resolution.
 .paper-box {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1.6em;
+  margin: 1.4em 0;
+
+  // --- paint ---
+  border: 1px solid $g-hairline;
+  border-radius: 14px;
+  background: $g-surface;
+  box-shadow: none;                          // research surfaces stay near-flat
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: none;                          // kill the template translateY lift
+    border-color: $g-hairline-2;
+    box-shadow: $g-elev-1;                     // soft Material elevation instead
+  }
+
+  // Figure on top, centered and capped to a comfortable medium size, framed in
+  // a subtle Google-grey tile. Click to open full resolution.
+  .paper-box-image {
+    order: 1;
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto 1.3em;
     display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    justify-content: center;
+    background: $g-surface-sub;
+    border: 1px solid $g-hairline;
+    border-radius: 12px;
+    padding: 1em;
+    box-sizing: border-box;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
+    > div {                                    // theme's inner wrapper (holds badge + img)
+      position: relative;
+      width: 100%;
     }
 
+    a { display: block; width: 100%; line-height: 0; }
 
+    img {
+      max-width: 100%;
+      width: 100%;
+      border-radius: 6px;
+      box-shadow: none;
+      border: 0;
+      object-fit: contain;                     // never crop figures/tables
+      cursor: zoom-in;                         // click to open full resolution
+      transition: none;
+    }
+  }
+  &:hover .paper-box-image img { transform: none; }   // kill the template scale()
+
+  .paper-box-text {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.94em;                          // calmer abstract, less dominant
+    line-height: 1.6;
+
+    a:first-of-type {
+      color: $g-text;                          // title is text-colored, blue on hover
+      font-size: 1.14em;
+      font-weight: 500;
+      line-height: 1.4;
+      transition: color 0.15s ease;
+      &:hover { color: $g-blue; }
+    }
+    strong { color: $g-text; }
+  }
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
-}
-
+// ---- Venue badge: tonal Material chip, Roboto Mono, AA contrast --------------
+// Keep position:absolute — it overlaps the image at .paper-box-image>div>.badge.
+// #174ea6 on #e8f0fe = 6.85:1 (AA-clean even at small size / long venue strings).
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
+  display: inline-block;
+  position: absolute;
+  margin-top: 0.6em;
+  margin-left: -0.4em;
+  padding: 0.3em 0.75em;
+  max-width: 92%;
+  color: $g-on-container;
+  background: $g-blue-container;              // tonal container, no gradient
+  border: 0;
+  border-radius: 9999px;                      // full pill, wraps long names
+  box-shadow: none;
+  font-family: $g-mono;
+  font-size: 0.66em;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5;
+  text-transform: none;
+}
+
+// ---- Footer: quiet hairline surface -----------------------------------------
+.page__footer {
+  background: $g-surface;
+  border-top: 1px solid $g-hairline;
+  color: $g-text-2;
+  font-family: $g-sans;
+
+  a {
+    color: $g-text-2;
+    &:hover { color: $g-blue; }
+  }
+}
+
+// ---- Anchor scroll offset (restored) ----------------------------------------
+// Keeps in-page nav targets (#-news, #-publications, …) clear of the masthead.
+$scroll_offset: 2em;
+h1:before, .anchor:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: $scroll_offset;
+  margin-top: -$scroll_offset;
 }
