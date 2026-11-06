@@ -1,6 +1,7 @@
 name: Get Citation Data
 
 on:
+ workflow_dispatch:
  page_build:
  schedule:
   - cron:  '0 8 * * *'
@@ -12,12 +13,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.x'  # Replace with the specific version if needed
+          python-version: '3.12'  # pinned: scholarly's deps lag behind new Python releases
 
       - name: Setup environment, install deps & run crawler
         shell: bash
