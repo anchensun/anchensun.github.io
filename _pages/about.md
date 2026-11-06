@@ -32,15 +32,6 @@ My research interests span AI Infrastructure, AI Agents and Multi-Agent Systems,
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PLOS ONE</div><img src='images/RipCurrent_Framework.png' alt="UAV-video rip current detection framework" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Rip current detection in nearshore areas through UAV video analysis using optical flow and almost local-isometric embedding techniques on the sphere](https://doi.org/10.1371/journal.pone.0360672)
-
-Kaiqi Yang, Stephen B. Leatherman, **Anchen Sun** (corresponding author)
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Corporate Social Responsibility and Environmental Management</div><img src='images/SSSR_Figure.png' alt="Smart Service Social Responsibility framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
