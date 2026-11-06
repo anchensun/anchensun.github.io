@@ -93,6 +93,7 @@ Jingyi Xu, Minghui Cheng, **Anchen Sun**
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), **Anchen Sun**, Yudong Tao, Mei-Ling Shyu, Angela Blizzard, William Andrew Rothenberg, Dainelys Garcia, Jason F. Jent, **International Journal of Multimedia Data Engineering and Management (IJMDEM)**, 2022
 - [Florida public hurricane loss model: Software system for insurance loss projection](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3086), Yudong Tao, Tianyi Wang, **Anchen Sun**, Shahid S. Hamid, Shu-Ching Chen, Mei-Ling Shyu, **Software: Practice and Experience**, 2022
 - [Multimodal Data Integration for Interactive and Realistic Avatar Simulation in Augmented Reality](https://ieeexplore.ieee.org/abstract/document/9598519), **Anchen Sun**, Yudong Tao, Mei-Ling Shyu, Shu-Ching Chen, Angela Blizzard, William Andrew Rothenberg, Dainelys Garcia, Jason F Jent, **IEEE 22nd International Conference on Information Reuse and Integration for Data Science (IRI)**, Las Vegas, NV, USA, 2021
+- Deep Learning for Predicting Cancer Prognosis, **Anchen Sun**, **Ph.D. Dissertation**, University of Miami, 2025
 - [UAV-Video-Based Rip Current Detection in Near-Shore Areas](https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13356639800002976&download=true), **Anchen Sun**, **Master's Thesis**, University of Miami, 2020
 
 **Preprints**
