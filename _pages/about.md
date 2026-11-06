@@ -37,7 +37,7 @@ My research interests span AI Infrastructure, AI Agents and Multi-Agent Systems,
 
 [Rip current detection in nearshore areas through UAV video analysis using optical flow and almost local-isometric embedding techniques on the sphere](https://doi.org/10.1371/journal.pone.0360672)
 
-Kaiqi Yang, Stephen B. Leatherman, **Anchen Sun** (corresponding author) <strong><span class='show_paper_citations' data='369nl3gAAAAJ:4TOpqqG69KYC'></span></strong>
+Kaiqi Yang, Stephen B. Leatherman, **Anchen Sun** (corresponding author)
 </div>
 </div>
 
