@@ -371,6 +371,7 @@ p.author__bio {
 .badge {
   display: inline-block;
   position: absolute;
+  z-index: 2;                                 // above the figure (img is position:relative for hover-zoom)
   margin-top: 0.6em;
   margin-left: -0.4em;
   padding: 0.3em 0.75em;
@@ -386,6 +387,34 @@ p.author__bio {
   letter-spacing: 0;
   line-height: 1.5;
   text-transform: none;
+}
+
+// ---- Collapsible abstract in paper boxes ------------------------------------
+.paper-box-text .paper-abstract {
+  margin-top: 0.3em;
+
+  summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    color: $g-text;
+    user-select: none;
+    transition: color 0.15s ease;
+
+    &::-webkit-details-marker { display: none; }
+    &::before {
+      content: "▸";
+      color: $g-blue;
+      transition: transform 0.15s ease;
+    }
+    &:hover { color: $g-blue; }
+  }
+
+  &[open] summary::before { transform: rotate(90deg); }
+  p { margin: 0.5em 0 0; }
 }
 
 // ---- Footer: quiet hairline surface -----------------------------------------
