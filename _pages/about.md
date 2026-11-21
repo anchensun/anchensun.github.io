@@ -3,7 +3,7 @@ layout: deepmind # Available layouts: deepmind (03) | editorial (01) | default (
 permalink: /
 title: ""
 excerpt: ""
-description: "Anchen Sun is an AI/ML Software Engineer at Google (AI2), working on AI infrastructure, AI agents, and AI agent/skill qualifications. Publications, news, honors and education."
+description: "Anchen Sun is an AI Software Engineer at Google (AI2), working on AI infrastructure, AI agents, and AI agent/skill qualifications. Publications, news, honors and education."
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,7 +12,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an AI/ML Software Engineer at Google LLC, where I work in the **AI2 (Artificial Intelligence & Infrastructure)** organization on **AI Infrastructure**, **AI Agents**, and **AI Agent/Skill Qualifications** — building the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. from the University of Miami College of Engineering, Department of Electrical and Computer Engineering.
+I am an AI Software Engineer at Google LLC, where I work in the **AI2 (Artificial Intelligence & Infrastructure)** organization on **AI Infrastructure**, **AI Agents**, and **AI Agent/Skill Qualifications** — building the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. from the University of Miami College of Engineering, Department of Electrical and Computer Engineering.
 
 My research interests span AI Infrastructure, AI Agents, AI Agent/Skill Qualifications, Deep Learning, Computational Psychology, and Engineering Management. I have published a number of papers at conferences and journals, with total <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'>Google Scholar citations <strong><span id='total_cit'>237</span></strong></a>.
 
@@ -134,5 +134,5 @@ Jingyi Xu, Minghui Cheng, **Anchen Sun**<sup>\*</sup> *(Corresponding Author)*
 - *2014.08 - 2017.12*, University of Miami, Bachelor of Science (B.S.) in Marine Science and Computer Science with Minor in Mathematics
 
 # 💻 Experience
-- *2025.08 - Present*, AI/ML Software Engineer, Google LLC, AI2 (Artificial Intelligence & Infrastructure) organization
+- *2025.08 - Present*, AI Software Engineer, Google LLC, AI2 (Artificial Intelligence & Infrastructure) organization
 - *2018.04 - 2018.08*, Statistical Programmer (Intern), [Biorasi LLC](https://biorasi.com/), FL, U.S.

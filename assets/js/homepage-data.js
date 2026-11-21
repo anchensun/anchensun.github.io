@@ -1,9 +1,9 @@
 window.SITE_DATA = {
   profile: {
     name: "Anchen Sun",
-    title: "AI/ML Software Engineer",
+    title: "AI Software Engineer",
     org: "Google LLC · AI2 (Artificial Intelligence & Infrastructure)",
-    shortRole: "AI/ML Software Engineer @ Google (AI2)",
+    shortRole: "AI Software Engineer @ Google (AI2)",
     location: "Sunnyvale, CA",
     avatar: "images/android-chrome-512x512.png",
     citations: 237,
@@ -11,7 +11,7 @@ window.SITE_DATA = {
     githubUrl: "https://github.com/anchensun",
     linkedinUrl: "https://www.linkedin.com/in/anchensun3052136551",
     email: "anchensun95@gmail.com",
-    bio1: "I am an AI/ML Software Engineer at Google LLC, where I work in the AI2 (Artificial Intelligence & Infrastructure) organization on AI Infrastructure, AI Agents, and AI Agent/Skill Qualifications — building the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. from the University of Miami College of Engineering, Department of Electrical and Computer Engineering.",
+    bio1: "I am an AI Software Engineer at Google LLC, where I work in the AI2 (Artificial Intelligence & Infrastructure) organization on AI Infrastructure, AI Agents, and AI Agent/Skill Qualifications — building the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. from the University of Miami College of Engineering, Department of Electrical and Computer Engineering.",
     bio2: "My research interests span AI Infrastructure, AI Agents, AI Agent/Skill Qualifications, Deep Learning, Computational Psychology, and Engineering Management.",
     focusAreas: [
       "AI Infrastructure",
@@ -372,7 +372,7 @@ window.SITE_DATA = {
   ],
 
   experience: [
-    { period: "2025.08 – Present", role: "AI/ML Software Engineer", org: "Google LLC", detail: "AI2 (Artificial Intelligence & Infrastructure) organization" },
+    { period: "2025.08 – Present", role: "AI Software Engineer", org: "Google LLC", detail: "AI2 (Artificial Intelligence & Infrastructure) organization" },
     { period: "2018.04 – 2018.08", role: "Statistical Programmer (Intern)", org: "Biorasi LLC", url: "https://biorasi.com/", detail: "Florida, USA" }
   ]
 };
