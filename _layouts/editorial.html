@@ -134,7 +134,7 @@
 
     .hero-wrap { padding-bottom: 2.8rem; border-bottom: 1px solid var(--border); }
     .hero {
-      display: grid; grid-template-columns: 1fr 168px; gap: 2.8rem;
+      display: grid; grid-template-columns: 1fr 184px; gap: 2.8rem;
       align-items: start;
     }
     .eyebrow {
@@ -189,10 +189,15 @@
 
     .avatar-col { display: flex; flex-direction: column; align-items: center; gap: 0.75rem; padding-top: 0.3rem; }
     .avatar-frame {
-      width: 160px; height: 160px; border-radius: 22px; overflow: hidden;
+      width: 176px; height: 176px; border-radius: 22px; overflow: hidden;
       border: 1px solid var(--border); background: var(--surface);
       box-shadow: var(--shadow-md);
       padding: 5px;
+    }
+    .cn-name {
+      font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      font-size: 0.46em; font-weight: 400; color: var(--text-2);
+      margin-left: 0.45rem; letter-spacing: 0.05em; vertical-align: middle;
     }
     .avatar-frame img { width: 100%; height: 100%; object-fit: cover; border-radius: 17px; display: block; }
     .loc-meta {
@@ -504,7 +509,7 @@
       <div class="hero">
         <div>
           <div class="eyebrow"><span class="dot"></span>Google LLC · AI2 Organization</div>
-          <h1>Anchen Sun</h1>
+          <h1>Anchen Sun <span class="cn-name">孙安辰</span></h1>
           <p class="hero-sub"><strong>AI/ML Software Engineer</strong> building production AI Infrastructure, AI Agents &amp; AI Agent/Skill Qualifications.</p>
           <p class="hero-bio">
             I work in Google's <strong>AI2 (Artificial Intelligence &amp; Infrastructure)</strong> organization on the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. in Electrical and Computer Engineering from the University of Miami. My research spans AI infrastructure, AI agents, AI agent/skill qualifications, deep learning, computational psychology, and engineering management.

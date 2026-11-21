@@ -1,5 +1,5 @@
 ---
-layout: editorial # Available layouts: editorial (01) | deepmind (03) | default (legacy)
+layout: deepmind # Available layouts: deepmind (03) | editorial (01) | default (legacy)
 permalink: /
 title: ""
 excerpt: ""
