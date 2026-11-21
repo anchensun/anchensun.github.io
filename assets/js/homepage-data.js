@@ -346,12 +346,23 @@ window.SITE_DATA = {
   ],
 
   honors: [
-    { date: "2025.05", text: "EPIC 2025 Pitch and Innovation Challenge Finalist" },
-    { date: "2024.12", text: "Eliahu I and Joyce Jury Award — Best Graduate in Electrical & Computer Engineering (2024)" },
+    { date: "2025.08", text: "Disciplinary Diversity & Integration Award in Cognitive Science — CogSci 2025 (Symposium 11)", url: "https://cognitivesciencesociety.org/cogsci-2025/" },
+    { date: "2025.05", text: "EPIC 2025 Pitch and Innovation Challenge Finalist ($2,000 award)" },
+    { date: "2024.12", text: "Eliahu I. and Joyce Jury Award for Graduate Scholarship — Best Graduate in Electrical & Computer Engineering (2024)", url: "https://www.coe.miami.edu/student-awards-and-recognitions/index.html" },
     { date: "2023.03", text: "Invited Speaker — AI Module, ECE114 Global Challenges Addressed by Engineering and Tech, University of Miami" },
     { date: "2022.03", text: "Winner of the 2022 Research Day Poster Session, Machine Learning & Computer Science Category", url: "https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html" },
-    { date: "2016–2017", text: "Frost Institute for Data Science & Computing (IDSC) Fellow, University of Miami", url: "https://idsc.miami.edu/2016-2017-idsc-fellows-present-interdisciplinary-projects/" },
+    { date: "2016–2017", text: "Frost Institute for Data Science & Computing (IDSC) Fellow, University of Miami", url: "https://idsc.miami.edu/2016-2017-idsc-fellows-present-interdisciplinary-projects/", extraLink: { label: "Fellow Profile", url: "https://idsc.miami.edu/idsc-fellows/past-fellows/" } },
     { date: "2007.07", text: "National Olympiad in Informatics in Provinces (NOIP) Jiangsu 1st Award" }
+  ],
+
+  press: [
+    {
+      date: "2024.04",
+      outlet: "University of Miami News",
+      title: "Psychology professor and team awarded $750,000 grant for autism research",
+      url: "https://news.miami.edu/as/stories/2024/04/psychology-professor-and-team-awarded-750,000-grant-for-autism-research.html",
+      note: "Featured for leading the automated audio analysis component of the SFARI-funded multimodal autism study."
+    }
   ],
 
   education: [

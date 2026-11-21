@@ -587,6 +587,10 @@
         <div class="sub-heading">Honors &amp; Awards</div>
         <div id="awardsList"></div>
       </div>
+      <div class="awards-list" id="pressSection">
+        <div class="sub-heading">Media &amp; Press</div>
+        <div id="pressList"></div>
+      </div>
     </section>
   </main>
 
@@ -739,7 +743,18 @@
     document.getElementById("awardsList").innerHTML = D.honors.map(h => `
       <div class="award-row">
         <span class="award-date">${h.date}</span>
-        <span>${h.url ? `<a href="${h.url}" target="_blank" rel="noopener">${h.text}</a>` : h.text}</span>
+        <span>${h.url ? `<a href="${h.url}" target="_blank" rel="noopener">${h.text}</a>` : h.text}${h.extraLink ? ` · <a href="${h.extraLink.url}" target="_blank" rel="noopener" style="font-size:0.82rem;">${h.extraLink.label} ↗</a>` : ""}</span>
+      </div>
+    `).join("");
+
+    document.getElementById("pressList").innerHTML = (D.press || []).map(p => `
+      <div class="award-row">
+        <span class="award-date">${p.date}</span>
+        <span>
+          <strong style="color:var(--text);font-weight:500;">${p.outlet}:</strong>
+          <a href="${p.url}" target="_blank" rel="noopener">${p.title}</a>
+          ${p.note ? `<div style="font-size:0.82rem;color:var(--text-3);margin-top:0.18rem;">${p.note}</div>` : ""}
+        </span>
       </div>
     `).join("");
 

@@ -117,12 +117,16 @@ Jingyi Xu, Minghui Cheng, **Anchen Sun**<sup>\*</sup> *(Corresponding Author)*
 - *Dynamic Analysis of Corporate ESG Reports: a Study Based on Knowledge Management Model*, Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng. **2023 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)**
 
 # 🎖 Honors and Awards
-- *2025.05* EPIC 2025 Pitch and Innovation Challenge Finalist!
-- *2024.12* Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department in 2024!
+- *2025.08* [Disciplinary Diversity & Integration Award in Cognitive Science, CogSci 2025 (Symposium 11)](https://cognitivesciencesociety.org/cogsci-2025/)
+- *2025.05* EPIC 2025 Pitch and Innovation Challenge Finalist ($2,000 award)
+- *2024.12* [Eliahu I. and Joyce Jury Award for Graduate Scholarship](https://www.coe.miami.edu/student-awards-and-recognitions/index.html), the best graduate in the Electrical and Computer Engineering department in 2024
 - *2023.03* Invited Speaker, AI module, ECE114 Global Challenges addressed by Engineering and Tech, University of Miami
-- *2022.03* [Winner of the 2022 Research Day Poster Session, Machine Learning and Computer Science Category](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html) 
-- *2016 - 2017* [2016-17 Frost Institute for Data Science & Computing Fellows, University of Miami](https://idsc.miami.edu/2016-2017-idsc-fellows-present-interdisciplinary-projects/)
+- *2022.03* [Winner of the 2022 Research Day Poster Session, Machine Learning and Computer Science Category](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html)
+- *2016 - 2017* [2016-17 Frost Institute for Data Science & Computing Fellows, University of Miami](https://idsc.miami.edu/2016-2017-idsc-fellows-present-interdisciplinary-projects/) ([Fellow Profile](https://idsc.miami.edu/idsc-fellows/past-fellows/))
 - *2007.07* National Olympiad in Informatics in Provinces (NOIP) Jiangsu 1st Award
+
+# 📰 Media and Press
+- *2024.04* University of Miami News: [Psychology professor and team awarded $750,000 grant for autism research](https://news.miami.edu/as/stories/2024/04/psychology-professor-and-team-awarded-750,000-grant-for-autism-research.html) — featured for leading the automated audio analysis component of the SFARI-funded multimodal autism study.
 
 # 📖 Education
 - *2020.08 - 2025.08*, University of Miami, Doctor of Philosophy (Ph.D.) in Electrical and Computer Engineering (Advisor: Dr. Xiaodong Cai)
