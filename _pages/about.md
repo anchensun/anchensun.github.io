@@ -1,8 +1,9 @@
 ---
+layout: editorial # Available layouts: editorial (01) | deepmind (03) | default (legacy)
 permalink: /
 title: ""
 excerpt: ""
-description: "Anchen Sun is an AI/ML Software Engineer at Google (AI2), working on AI infrastructure, AI agents and multi-agent systems. Publications, news, honors and education."
+description: "Anchen Sun is an AI/ML Software Engineer at Google (AI2), working on AI infrastructure, AI agents, and AI agent/skill qualifications. Publications, news, honors and education."
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,17 +12,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an AI/ML Software Engineer at Google LLC, where I work in the **AI2 (Artificial Intelligence & Infrastructure)** organization on **AI Infrastructure**, **AI Agents**, and **Multi-Agent Systems** — building the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. from the University of Miami College of Engineering, Department of Electrical and Computer Engineering.
+I am an AI/ML Software Engineer at Google LLC, where I work in the **AI2 (Artificial Intelligence & Infrastructure)** organization on **AI Infrastructure**, **AI Agents**, and **AI Agent/Skill Qualifications** — building the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. from the University of Miami College of Engineering, Department of Electrical and Computer Engineering.
 
-My research interests span AI Infrastructure, AI Agents and Multi-Agent Systems, Deep Learning, Computational Psychology, and Engineering Management. I have published a number of papers at conferences and journals, with total <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'>Google Scholar citations <strong><span id='total_cit'>237</span></strong></a>.
+My research interests span AI Infrastructure, AI Agents, AI Agent/Skill Qualifications, Deep Learning, Computational Psychology, and Engineering Management. I have published a number of papers at conferences and journals, with total <a href='https://scholar.google.com/citations?user=369nl3gAAAAJ'>Google Scholar citations <strong><span id='total_cit'>237</span></strong></a>.
 
 
 # 🔥 News
-- *2026.03* &nbsp;🎉🎉 [Global Evolution of Social Responsibility in Smart-Service Industries: Insights From a Cross-Sector Hybrid Large Language Models Approach](https://onlinelibrary.wiley.com/doi/10.1002/csr.70257) is published in Corporate Social Responsibility and Environmental Management, 33(2), 1815-1831
+- *2026.03* &nbsp;🎉🎉 [Global Evolution of Social Responsibility in Smart-Service Industries: Insights From a Cross-Sector Hybrid Large Language Models Approach](https://onlinelibrary.wiley.com/doi/10.1002/csr.70257) is published in Corporate Social Responsibility and Environmental Management
 - *2026.05* &nbsp;🎉🎉 **Smart Service Social Responsibility (SSSR) Agent for Sustainability Disclosure and Corporate Governance** was presented at the 2026 POMS Annual Conference, Grand Sierra Resort, Reno, NV
 - *2026.07* &nbsp;📢📢 New preprint: [Printed but not benchmarkable: most building-decarbonisation disclosure cannot be matched to the pathways that stranding regulation assumes](https://arxiv.org/abs/2607.22006) is available on arXiv and [Google Research](https://research.google/pubs/unfit-for-stranding-a-panel-scale-multimodal-llm-audit-of-building-decarbonisation-disclosure-beda/)
 - *2026.08* &nbsp;📢📢 New preprint: [RouteGuard: Certifying Routing Gain in LLM Multi-Agent Systems When Complementarity Is Not Enough](https://arxiv.org/abs/2608.07583) is available on arXiv
-- *2026.10* &nbsp;🎉🎉 [Rip current detection in nearshore areas through UAV video analysis using optical flow and almost local-isometric embedding techniques on the sphere](https://doi.org/10.1371/journal.pone.0360672) is published in PLOS ONE, 21(10): e0360672
+- *2026.10* &nbsp;🎉🎉 [Rip current detection in nearshore areas through UAV video analysis using optical flow and almost local-isometric embedding techniques on the sphere](https://doi.org/10.1371/journal.pone.0360672) is published in PLOS ONE
 - *2026.11* &nbsp;🎉🎉 **The Role of Question Asking and Answering in the Language Development of Children with and without Hearing Loss: Evidence from New Automated Technologies** was accepted as a Paper Symposium presentation at the 42nd Biennial Meeting of the Society for Research in Child Development (SRCD 2027), April 2027, Atlanta, GA
 
 
@@ -60,7 +61,7 @@ Ziyuan Xia, Saixing Zeng, **Anchen Sun**, Huabin Sun, Xiaodong Cai
 
 [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://doi.org/10.1016/j.foar.2024.10.002)
 
-Jingyi Xu, Minghui Cheng, **Anchen Sun**
+Jingyi Xu, Minghui Cheng, **Anchen Sun**<sup>\*</sup> *(Corresponding Author)*
 
 <details class="paper-abstract"><summary>Abstract</summary>
 <p>Amid increasing global environmental concerns, the architectural industry is under increasing pressure to implement sustainable practices. Leadership in Energy and Environmental Design (LEED) certification has become a crucial benchmark for assessing green building practices. This study investigates the adoption and impact of LEED-certified projects within leading architectural firms from 2000 to 2023, utilizing a novel data mining framework to scan extensive datasets on LEED projects and firm operations. We introduce two key metrics: the Weighted LEED Achieved Score (WLAS) and the Green Impact Ratio (GIR), which evaluate the sustainability efforts of firms in relation to their market size and project scale. These metrics yield insights into how firms incorporate sustainability into their business and the environmental outcomes of their projects. Our research uncovers significant trends in LEED standard adoption, illustrating a strengthening commitment to sustainable buildings. The analysis underscores the strategic importance of these practices for securing a competitive edge and aligning with global sustainability objectives. This paper contributes to the sustainable architecture discourse by providing fresh insights into the integration and effectiveness of LEED certification among top firms and offering a comprehensive framework for evaluating the environmental and economic aspects of sustainability in architecture.</p>
@@ -81,25 +82,25 @@ Jingyi Xu, Minghui Cheng, **Anchen Sun**
 </div>
 </div>
 
-**Journal and Conference Full Paper**
-- [Rip current detection in nearshore areas through UAV video analysis using optical flow and almost local-isometric embedding techniques on the sphere](https://doi.org/10.1371/journal.pone.0360672), Kaiqi Yang, Stephen B. Leatherman, **Anchen Sun**, **PLOS ONE**, 21(10): e0360672, 2026
-- [Global Evolution of Social Responsibility in Smart-Service Industries: Insights From a Cross-Sector Hybrid Large Language Models Approach](https://onlinelibrary.wiley.com/doi/10.1002/csr.70257), Ziyuan Xia, Saixing Zeng, **Anchen Sun**, Huabin Sun, Xiaodong Cai, **Corporate Social Responsibility and Environmental Management**, 33(2), 1815-1831, 2026
+**Journal and Conference Full Paper** *(<sup>\*</sup> Corresponding author)*
+- [Rip current detection in nearshore areas through UAV video analysis using optical flow and almost local-isometric embedding techniques on the sphere](https://doi.org/10.1371/journal.pone.0360672), Kaiqi Yang, Stephen B. Leatherman, **Anchen Sun**<sup>\*</sup>, **PLOS ONE**, 2026
+- [Global Evolution of Social Responsibility in Smart-Service Industries: Insights From a Cross-Sector Hybrid Large Language Models Approach](https://onlinelibrary.wiley.com/doi/10.1002/csr.70257), Ziyuan Xia, Saixing Zeng, **Anchen Sun**, Huabin Sun, Xiaodong Cai, **Corporate Social Responsibility and Environmental Management**, 2026
 - [Analyzing Corporate ESG Reporting Through Data Mining: Evolutionary Trends and Strategic Model](https://doi.org/10.1080/23270012.2025.2563507), Ziyuan Xia, **Anchen Sun**, Xiaodong Cai, Saixing Zeng, **Journal of Management Analytics**, 2025
 - [Who Said What (WSW 2.0)? Enhanced Automated Analysis of Preschool Classroom Speech](https://ieeexplore.ieee.org/document/11204438), **Anchen Sun**, Tiantian Feng, Gabriela Gutierrez, Juan J Londono, Anfeng Xu, Batya Elbaum, Shrikanth Narayanan, Lynn K Perry, Daniel S Messinger, **IEEE International Conference on Development and Learning (ICDL)**, 2025
-- [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481), Jingyi Xu, Minghui Cheng, **Anchen Sun**, **Frontiers of Architectural Research (FoAR)**, 2025
+- [Assessing Sustainable Practices in Architecture: A Data-Driven Analysis of LEED Certification Adoption and Impact in Top Firms from 2000 to 2023](https://www.sciencedirect.com/science/article/pii/S2095263524001481), Jingyi Xu, Minghui Cheng, **Anchen Sun**<sup>\*</sup>, **Frontiers of Architectural Research (FoAR)**, 2025
 - [Who Said What? An Automated Approach to Analyzing Speech in Preschool Classrooms](https://arxiv.org/abs/2401.07342), **Anchen Sun**, Juan J Londono, Batya Elbaum, Luis Estrada, Roberto Jose Lazo, Laura Vitale, Hugo Gonzalez Villasanti, Riccardo Fusaroli, Lynn K Perry, Daniel S Messinger, **IEEE International Conference on Development and Learning (ICDL)**, 2024
 - [Deep Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values](https://doi.org/10.1093/bib/bbae544), **Anchen Sun**, Elizabeth J. Franzmann, Zhibin Chen, Xiaodong Cai, **Briefings in Bioinformatics (BIB)**, 2024
-- [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631), Ziyuan Xia, **Anchen Sun**, Jingyi Xu, Yuanzhe Peng, Rui Ma, Minghui Cheng, **IEEE Access**, 2024
+- [Contemporary Recommendation Systems on Big Data and Their Applications: A Survey](https://arxiv.org/abs/2206.02631), Ziyuan Xia, **Anchen Sun**<sup>\*</sup>, Jingyi Xu, Yuanzhe Peng, Rui Ma, Minghui Cheng, **IEEE Access**, 2024
 - [Mining the relationship between COVID-19 sentiment and market performance](https://arxiv.org/abs/2101.02587), Ziyuan Xia, Jeffery Chen, **Anchen Sun**, **PLOS ONE**, 2024
 - [Multimodal Data Integration and User Interaction for Avatar Simulation in Augmented Reality](https://www.igi-global.com/article/multimodal-data-integration-and-user-interaction-for-avatar-simulation-in-augmented-reality/304391), **Anchen Sun**, Yudong Tao, Mei-Ling Shyu, Angela Blizzard, William Andrew Rothenberg, Dainelys Garcia, Jason F. Jent, **International Journal of Multimedia Data Engineering and Management (IJMDEM)**, 2022
 - [Florida public hurricane loss model: Software system for insurance loss projection](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3086), Yudong Tao, Tianyi Wang, **Anchen Sun**, Shahid S. Hamid, Shu-Ching Chen, Mei-Ling Shyu, **Software: Practice and Experience**, 2022
-- [Multimodal Data Integration for Interactive and Realistic Avatar Simulation in Augmented Reality](https://ieeexplore.ieee.org/abstract/document/9598519), **Anchen Sun**, Yudong Tao, Mei-Ling Shyu, Shu-Ching Chen, Angela Blizzard, William Andrew Rothenberg, Dainelys Garcia, Jason F Jent, **IEEE 22nd International Conference on Information Reuse and Integration for Data Science (IRI)**, Las Vegas, NV, USA, 2021
+- [Multimodal Data Integration for Interactive and Realistic Avatar Simulation in Augmented Reality](https://ieeexplore.ieee.org/abstract/document/9598519), **Anchen Sun**, Yudong Tao, Mei-Ling Shyu, Shu-Ching Chen, Angela Blizzard, William Andrew Rothenberg, Dainelys Garcia, Jason F Jent, **IEEE 22nd International Conference on Information Reuse and Integration for Data Science (IRI)**, 2021
 - Deep Learning for Predicting Cancer Prognosis, **Anchen Sun**, **Ph.D. Dissertation**, University of Miami, 2025
 - [UAV-Video-Based Rip Current Detection in Near-Shore Areas](https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13356639800002976&download=true), **Anchen Sun**, **Master's Thesis**, University of Miami, 2020
 
-**Preprints**
-- [RouteGuard: Certifying Routing Gain in LLM Multi-Agent Systems When Complementarity Is Not Enough](https://arxiv.org/abs/2608.07583), **Anchen Sun**, Kaiqi Yang, **arXiv preprint arXiv:2608.07583**, 2026
-- [Printed but not benchmarkable: most building-decarbonisation disclosure cannot be matched to the pathways that stranding regulation assumes](https://arxiv.org/abs/2607.22006), Jingyi Xu, Minghui Cheng, **Anchen Sun**, **arXiv preprint arXiv:2607.22006**, 2026
+**Preprints** *(<sup>\*</sup> Corresponding author)*
+- [RouteGuard: Certifying Routing Gain in LLM Multi-Agent Systems When Complementarity Is Not Enough](https://arxiv.org/abs/2608.07583), **Anchen Sun**<sup>\*</sup>, Kaiqi Yang, **arXiv preprint arXiv:2608.07583**, 2026
+- [Printed but not benchmarkable: most building-decarbonisation disclosure cannot be matched to the pathways that stranding regulation assumes](https://arxiv.org/abs/2607.22006), Jingyi Xu, Minghui Cheng, **Anchen Sun**<sup>\*</sup>, **arXiv preprint arXiv:2607.22006**, 2026
 
 **Symposium, Conference Poster, and Presentation**
 - *The Role of Question Asking and Answering in the Language Development of Children with and without Hearing Loss: Evidence from New Automated Technologies*, Perry, L. K., Elbaum, B., Garcia, L., Angeles, L. E., **Sun, A.**, Drye, M., Kara, Y., Cejas, I., & Messinger, D. S. (2027, April) In L. K. Perry (chair) **What Real-time Language Production Can Tell Us About Development in Children with and without Disabilities**, Symposium to be presented at the **42nd Biennial Meeting of the Society for Research in Child Development (SRCD)**, Atlanta, GA.
@@ -118,6 +119,7 @@ Jingyi Xu, Minghui Cheng, **Anchen Sun**
 # 🎖 Honors and Awards
 - *2025.05* EPIC 2025 Pitch and Innovation Challenge Finalist!
 - *2024.12* Eliahu I and Joyce Jury Award, the best graduate in the Electrical and Computer Engineering department in 2024!
+- *2023.03* Invited Speaker, AI module, ECE114 Global Challenges addressed by Engineering and Tech, University of Miami
 - *2022.03* [Winner of the 2022 Research Day Poster Session, Machine Learning and Computer Science Category](https://news.miami.edu/coe/stories/2022/03/college-of-engineering-faculty-and-students-present-groundbreaking-research-on-research-day.html) 
 - *2016 - 2017* [2016-17 Frost Institute for Data Science & Computing Fellows, University of Miami](https://idsc.miami.edu/2016-2017-idsc-fellows-present-interdisciplinary-projects/)
 - *2007.07* National Olympiad in Informatics in Provinces (NOIP) Jiangsu 1st Award
@@ -129,5 +131,4 @@ Jingyi Xu, Minghui Cheng, **Anchen Sun**
 
 # 💻 Experience
 - *2025.08 - Present*, AI/ML Software Engineer, Google LLC, AI2 (Artificial Intelligence & Infrastructure) organization
-- *2023.03*, Invited Talk, AI module, ECE114 Global Challenges addressed by Engineering and Tech.
 - *2018.04 - 2018.08*, Statistical Programmer (Intern), [Biorasi LLC](https://biorasi.com/), FL, U.S.

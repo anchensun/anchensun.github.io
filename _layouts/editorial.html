@@ -1,0 +1,795 @@
+---
+---
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% include seo.html %}
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+  <link rel="manifest" href="images/site.webmanifest" />
+  <meta name="theme-color" content="#FAFAF7" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #FAFAF7;
+      --bg-glow: radial-gradient(ellipse 75% 36% at 50% -6%, rgba(29, 78, 216, 0.065), transparent 72%);
+      --surface: #FFFFFF;
+      --surface-2: #F3F2EC;
+      --border: #E5E3DA;
+      --border-strong: #CFCBC0;
+      --text: #161614;
+      --text-2: #54534D;
+      --text-3: #838179;
+      --accent: #1D4ED8;
+      --accent-soft: rgba(29, 78, 216, 0.08);
+      --accent-border: rgba(29, 78, 216, 0.22);
+      --accent-text: #1E40AF;
+      --tag-paper: #0F766E;
+      --tag-paper-bg: rgba(15, 118, 110, 0.09);
+      --tag-preprint: #B45309;
+      --tag-preprint-bg: rgba(180, 83, 9, 0.09);
+      --tag-talk: #4338CA;
+      --tag-talk-bg: rgba(67, 56, 202, 0.09);
+      --nav-bg: rgba(250, 250, 247, 0.84);
+      --shadow-sm: 0 1px 2px rgba(22, 22, 20, 0.04);
+      --shadow-md: 0 4px 20px rgba(22, 22, 20, 0.06), 0 1px 3px rgba(22, 22, 20, 0.04);
+      --fig-surface: #FFFFFF;
+    }
+
+    [data-theme="dark"] {
+      --bg: #10100F;
+      --bg-glow: radial-gradient(ellipse 75% 36% at 50% -6%, rgba(96, 165, 250, 0.09), transparent 72%);
+      --surface: #171715;
+      --surface-2: #21211E;
+      --border: #2A2A25;
+      --border-strong: #3E3E37;
+      --text: #F2F1EC;
+      --text-2: #A9A79F;
+      --text-3: #75736B;
+      --accent: #60A5FA;
+      --accent-soft: rgba(96, 165, 250, 0.13);
+      --accent-border: rgba(96, 165, 250, 0.30);
+      --accent-text: #93C5FD;
+      --tag-paper: #2DD4BF;
+      --tag-paper-bg: rgba(45, 212, 191, 0.12);
+      --tag-preprint: #FBBF24;
+      --tag-preprint-bg: rgba(251, 191, 36, 0.12);
+      --tag-talk: #A5B4FC;
+      --tag-talk-bg: rgba(165, 180, 252, 0.13);
+      --nav-bg: rgba(16, 16, 15, 0.84);
+      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.42);
+      --fig-surface: #F8FAFC;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      background-color: var(--bg);
+      background-image: var(--bg-glow);
+      background-repeat: no-repeat;
+      color: var(--text);
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.66;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    a { color: var(--accent); text-decoration: none; transition: color 0.15s ease; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+    .progress-bar {
+      position: fixed; top: 0; left: 0; height: 2px; width: 0%;
+      background: var(--accent); z-index: 80;
+      transition: width 0.08s linear;
+    }
+
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--nav-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 920px; margin: 0 auto; padding: 0.8rem 1.5rem;
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    }
+    .brand {
+      font-family: "Newsreader", Georgia, serif;
+      font-size: 1.22rem; font-weight: 500; color: var(--text);
+      letter-spacing: -0.015em; display: inline-flex; align-items: center; gap: 0.55rem;
+    }
+    .brand:hover { text-decoration: none; color: var(--accent); }
+    .brand-tag {
+      font-family: "JetBrains Mono", monospace; font-size: 0.65rem;
+      color: var(--text-3); padding: 0.1rem 0.42rem;
+      border: 1px solid var(--border); border-radius: 5px;
+    }
+    .nav-links { display: flex; align-items: center; gap: 0.35rem; }
+    .nav-links a {
+      font-size: 0.84rem; font-weight: 500; color: var(--text-2);
+      padding: 0.34rem 0.7rem; border-radius: 8px;
+      transition: all 0.15s ease;
+    }
+    .nav-links a:hover { color: var(--text); background: var(--surface-2); text-decoration: none; }
+    .nav-links a.active { color: var(--accent-text); background: var(--accent-soft); }
+    .theme-btn {
+      margin-left: 0.35rem;
+      border: 1px solid var(--border); background: var(--surface);
+      color: var(--text-2); border-radius: 8px;
+      padding: 0.36rem 0.62rem; font-size: 0.76rem;
+      font-family: "JetBrains Mono", monospace; cursor: pointer;
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      transition: all 0.15s ease;
+    }
+    .theme-btn:hover { border-color: var(--border-strong); color: var(--text); }
+
+    .container { max-width: 920px; margin: 0 auto; padding: 3.4rem 1.5rem 4.5rem; }
+
+    .hero-wrap { padding-bottom: 2.8rem; border-bottom: 1px solid var(--border); }
+    .hero {
+      display: grid; grid-template-columns: 1fr 168px; gap: 2.8rem;
+      align-items: start;
+    }
+    .eyebrow {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.73rem; letter-spacing: 0.07em; text-transform: uppercase;
+      color: var(--text-3); margin-bottom: 0.85rem;
+      display: inline-flex; align-items: center; gap: 0.55rem;
+    }
+    .eyebrow .dot {
+      width: 7px; height: 7px; border-radius: 50%; background: #10B981;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.18);
+    }
+    .hero h1 {
+      font-family: "Newsreader", Georgia, serif;
+      font-size: clamp(2.55rem, 4.8vw, 3.45rem);
+      font-weight: 500; line-height: 1.05; letter-spacing: -0.028em;
+      margin-bottom: 0.7rem;
+    }
+    .hero-sub {
+      font-size: 1.06rem; color: var(--text-2); font-weight: 400;
+      margin-bottom: 1.25rem; line-height: 1.55;
+    }
+    .hero-sub strong { color: var(--text); font-weight: 600; }
+    .hero-bio { font-size: 0.94rem; color: var(--text-2); margin-bottom: 1.55rem; max-width: 62ch; }
+    .hero-bio strong { color: var(--text); font-weight: 500; }
+
+    .links-row { display: flex; flex-wrap: wrap; gap: 0.55rem; align-items: center; }
+    .link-chip {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      padding: 0.46rem 0.88rem; border-radius: 999px;
+      border: 1px solid var(--border); background: var(--surface);
+      color: var(--text); font-size: 0.82rem; font-weight: 500;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.16s ease;
+    }
+    .link-chip:hover {
+      border-color: var(--accent-border); color: var(--accent);
+      text-decoration: none; background: var(--accent-soft);
+      transform: translateY(-1px);
+    }
+    .link-chip.primary {
+      background: var(--text); color: var(--bg); border-color: var(--text);
+    }
+    .link-chip.primary:hover {
+      opacity: 0.9; color: var(--bg); background: var(--text); border-color: var(--text);
+    }
+    .cit-num {
+      font-family: "JetBrains Mono", monospace; font-size: 0.73rem;
+      padding: 0.08rem 0.44rem; border-radius: 999px;
+      background: rgba(128, 128, 128, 0.24);
+    }
+
+    .avatar-col { display: flex; flex-direction: column; align-items: center; gap: 0.75rem; padding-top: 0.3rem; }
+    .avatar-frame {
+      width: 160px; height: 160px; border-radius: 22px; overflow: hidden;
+      border: 1px solid var(--border); background: var(--surface);
+      box-shadow: var(--shadow-md);
+      padding: 5px;
+    }
+    .avatar-frame img { width: 100%; height: 100%; object-fit: cover; border-radius: 17px; display: block; }
+    .loc-meta {
+      font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--text-3);
+      display: inline-flex; align-items: center; gap: 0.3rem;
+    }
+
+    .agenda-strip {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;
+      margin-top: 2.3rem; padding-top: 1.8rem;
+      border-top: 1px dashed var(--border);
+    }
+    .agenda-item {
+      padding: 0.9rem 1rem; border-radius: 12px;
+      background: var(--surface); border: 1px solid var(--border);
+      transition: border-color 0.18s ease, box-shadow 0.18s ease;
+    }
+    .agenda-item:hover { border-color: var(--border-strong); box-shadow: var(--shadow-sm); }
+    .agenda-num {
+      font-family: "JetBrains Mono", monospace; font-size: 0.68rem;
+      color: var(--accent-text); letter-spacing: 0.05em; margin-bottom: 0.3rem;
+    }
+    .agenda-title {
+      font-family: "Newsreader", Georgia, serif; font-size: 1.06rem; font-weight: 500;
+      color: var(--text); margin-bottom: 0.22rem;
+    }
+    .agenda-desc { font-size: 0.8rem; color: var(--text-2); line-height: 1.5; }
+
+    section { padding: 3.1rem 0; border-bottom: 1px solid var(--border); scroll-margin-top: 72px; }
+    section:last-of-type { border-bottom: none; }
+    .sec-head {
+      display: flex; align-items: baseline; justify-content: space-between;
+      gap: 1rem; margin-bottom: 1.65rem; flex-wrap: wrap;
+    }
+    .sec-title {
+      font-family: "Newsreader", Georgia, serif;
+      font-size: 1.85rem; font-weight: 500; letter-spacing: -0.022em;
+    }
+    .sec-kicker {
+      font-family: "JetBrains Mono", monospace; font-size: 0.73rem; color: var(--text-3);
+      text-transform: uppercase; letter-spacing: 0.06em;
+    }
+
+    .news-list { display: flex; flex-direction: column; }
+    .news-row {
+      display: grid; grid-template-columns: 78px 92px 1fr; gap: 0.9rem;
+      align-items: baseline; padding: 0.82rem 0.65rem; margin: 0 -0.65rem;
+      border-bottom: 1px dashed var(--border); border-radius: 10px;
+      transition: background 0.15s ease;
+    }
+    .news-row:hover { background: var(--surface); }
+    .news-row:last-child { border-bottom: none; }
+    .news-date {
+      font-family: "JetBrains Mono", monospace; font-size: 0.79rem; color: var(--text-3);
+      display: inline-flex; align-items: center; gap: 0.35rem;
+    }
+    .new-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+    .news-tag {
+      font-family: "JetBrains Mono", monospace; font-size: 0.66rem; font-weight: 500;
+      letter-spacing: 0.04em; text-transform: uppercase;
+      padding: 0.14rem 0.48rem; border-radius: 5px; width: fit-content;
+    }
+    .news-tag.paper { color: var(--tag-paper); background: var(--tag-paper-bg); }
+    .news-tag.preprint { color: var(--tag-preprint); background: var(--tag-preprint-bg); }
+    .news-tag.talk { color: var(--tag-talk); background: var(--tag-talk-bg); }
+    .news-text { font-size: 0.91rem; color: var(--text-2); }
+    .news-text strong, .news-text a { color: var(--text); font-weight: 500; }
+    .news-text a { text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px; }
+    .news-text a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+
+    .featured-grid { display: flex; flex-direction: column; gap: 1.2rem; }
+    .feat-card {
+      display: grid; grid-template-columns: 276px 1fr; gap: 1.65rem;
+      padding: 1.35rem; border-radius: 16px;
+      background: var(--surface); border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .feat-card:hover { border-color: var(--border-strong); box-shadow: var(--shadow-md); }
+    .feat-thumb {
+      background: var(--fig-surface); border: 1px solid var(--border);
+      border-radius: 11px; padding: 0.7rem;
+      display: flex; align-items: center; justify-content: center;
+      cursor: zoom-in; overflow: hidden; align-self: start;
+      position: relative;
+    }
+    .feat-thumb img {
+      width: 100%; height: 176px; object-fit: contain; display: block;
+      transition: transform 0.28s ease;
+    }
+    .feat-thumb:hover img { transform: scale(1.035); }
+    .zoom-badge {
+      position: absolute; bottom: 8px; right: 8px;
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      font-family: "JetBrains Mono", monospace; font-size: 0.66rem;
+      background: rgba(22, 22, 20, 0.78); color: #fff;
+      padding: 0.2rem 0.5rem; border-radius: 6px;
+      opacity: 0; transition: opacity 0.18s ease;
+    }
+    .feat-thumb:hover .zoom-badge { opacity: 1; }
+
+    .feat-body { display: flex; flex-direction: column; }
+    .feat-badges-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem; margin-bottom: 0.55rem; }
+    .feat-venue {
+      font-family: "JetBrains Mono", monospace; font-size: 0.71rem; font-weight: 500;
+      color: var(--accent-text); background: var(--accent-soft);
+      border: 1px solid var(--accent-border);
+      display: inline-block; width: fit-content;
+      padding: 0.15rem 0.56rem; border-radius: 999px;
+    }
+    .feat-title {
+      font-family: "Newsreader", Georgia, serif;
+      font-size: 1.24rem; font-weight: 500; line-height: 1.3;
+      margin-bottom: 0.45rem;
+    }
+    .feat-title a { color: var(--text); }
+    .feat-title a:hover { color: var(--accent); }
+    .feat-authors { font-size: 0.84rem; color: var(--text-2); margin-bottom: 0.55rem; line-height: 1.55; }
+    .me { color: var(--text); font-weight: 600; text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 2px; }
+    .corr-star { color: var(--accent); font-weight: 700; margin-left: 1px; font-size: 0.85em; }
+    .corr-badge {
+      font-family: "JetBrains Mono", monospace; font-size: 0.67rem; font-weight: 500;
+      color: var(--tag-paper); background: var(--tag-paper-bg);
+      border: 1px solid rgba(15, 118, 110, 0.22);
+      padding: 0.12rem 0.5rem; border-radius: 999px;
+      display: inline-flex; align-items: center; gap: 0.28rem;
+    }
+    .feat-role {
+      font-size: 0.82rem; color: var(--text-2);
+      background: var(--surface-2);
+      border-left: 2.5px solid var(--accent);
+      padding: 0.45rem 0.75rem; border-radius: 0 8px 8px 0;
+      margin: 0.35rem 0 0.65rem;
+    }
+    .feat-actions {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem;
+      margin-top: 0.35rem;
+    }
+    .act-pill {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      font-family: "JetBrains Mono", monospace; font-size: 0.72rem; font-weight: 500;
+      padding: 0.28rem 0.62rem; border-radius: 7px;
+      border: 1px solid var(--border); background: var(--bg);
+      color: var(--text-2); cursor: pointer; transition: all 0.15s ease;
+    }
+    .act-pill:hover { border-color: var(--accent-border); color: var(--accent); background: var(--accent-soft); text-decoration: none; }
+    .abs-panel {
+      display: none; margin-top: 0.75rem; padding: 0.85rem 1rem;
+      background: var(--surface-2); border-radius: 10px;
+      font-size: 0.83rem; color: var(--text-2); line-height: 1.65;
+      border: 1px solid var(--border);
+    }
+    .abs-panel.open { display: block; }
+
+    .pub-toolbar {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 0.75rem; flex-wrap: wrap; margin-bottom: 1.25rem;
+    }
+    .tabs {
+      display: inline-flex; gap: 0.25rem; padding: 0.24rem;
+      background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      border: none; background: transparent; color: var(--text-2);
+      font-family: "Inter", sans-serif; font-size: 0.79rem; font-weight: 500;
+      padding: 0.36rem 0.75rem; border-radius: 7px; cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .tab-btn.active {
+      background: var(--surface); color: var(--text);
+      box-shadow: var(--shadow-sm);
+    }
+    .search-wrap { position: relative; display: inline-flex; align-items: center; }
+    .search-wrap svg { position: absolute; left: 10px; color: var(--text-3); pointer-events: none; }
+    .search-input {
+      font-family: "Inter", sans-serif; font-size: 0.82rem;
+      padding: 0.42rem 0.75rem 0.42rem 2rem; width: 225px;
+      border-radius: 9px; border: 1px solid var(--border);
+      background: var(--surface); color: var(--text); outline: none;
+      transition: border-color 0.15s ease, width 0.2s ease;
+    }
+    .search-input:focus { border-color: var(--accent); width: 260px; }
+
+    .pub-list { display: flex; flex-direction: column; }
+    .pub-row {
+      display: grid; grid-template-columns: 60px 1fr; gap: 1rem;
+      padding: 0.9rem 0.7rem; margin: 0 -0.7rem;
+      border-bottom: 1px solid var(--border); border-radius: 10px;
+      transition: background 0.15s ease;
+    }
+    .pub-row.year-start { border-top: 1px solid var(--border); margin-top: 0.15rem; }
+    .pub-row:first-child { border-top: none; margin-top: 0; }
+    .pub-row:last-child { border-bottom: none; }
+    .pub-row:hover { background: var(--surface); }
+    .pub-year {
+      font-family: "JetBrains Mono", monospace; font-size: 0.82rem; font-weight: 500;
+      color: var(--text); padding-top: 0.14rem;
+    }
+    .pub-year.continued { color: transparent; user-select: none; }
+    .pub-title { font-size: 0.94rem; font-weight: 500; color: var(--text); line-height: 1.44; }
+    .pub-title a { color: var(--text); }
+    .pub-title a:hover { color: var(--accent); }
+    .pub-authors { font-size: 0.82rem; color: var(--text-2); margin-top: 0.22rem; line-height: 1.5; }
+    .pub-meta {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+      margin-top: 0.36rem; font-size: 0.79rem; color: var(--text-2);
+    }
+    .pub-venue { font-style: italic; color: var(--text); font-weight: 500; }
+    .pub-pill {
+      font-family: "JetBrains Mono", monospace; font-size: 0.67rem;
+      padding: 0.12rem 0.48rem; border-radius: 5px;
+      background: var(--surface-2); border: 1px solid var(--border); color: var(--text-2);
+      display: inline-flex; align-items: center; gap: 0.25rem; cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .pub-pill:hover { border-color: var(--accent-border); color: var(--accent); background: var(--accent-soft); text-decoration: none; }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2.2rem; }
+    .sub-heading {
+      font-family: "JetBrains Mono", monospace; font-size: 0.72rem;
+      text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-3);
+      margin-bottom: 1rem;
+    }
+    .tl-rail { border-left: 1.5px solid var(--border); padding-left: 1.15rem; display: flex; flex-direction: column; gap: 1.1rem; }
+    .tl-item { position: relative; }
+    .tl-item::before {
+      content: ""; position: absolute; left: -1.43rem; top: 0.42rem;
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--border-strong); border: 2px solid var(--bg);
+    }
+    .tl-item.current::before { background: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+    .tl-period { font-family: "JetBrains Mono", monospace; font-size: 0.73rem; color: var(--text-3); }
+    .tl-title { font-size: 0.93rem; font-weight: 600; color: var(--text); margin-top: 0.08rem; }
+    .tl-org { font-size: 0.84rem; color: var(--text-2); }
+
+    .awards-list { margin-top: 2.3rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+    .award-row {
+      display: grid; grid-template-columns: 96px 1fr; gap: 1rem;
+      padding: 0.55rem 0; font-size: 0.9rem; color: var(--text-2);
+      border-bottom: 1px dashed var(--border);
+    }
+    .award-row:last-child { border-bottom: none; }
+    .award-date { font-family: "JetBrains Mono", monospace; font-size: 0.77rem; color: var(--text-3); }
+
+    footer {
+      max-width: 920px; margin: 0 auto; padding: 1.6rem 1.5rem 3.2rem;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.76rem; color: var(--text-3);
+      font-family: "JetBrains Mono", monospace;
+    }
+
+    .lightbox {
+      position: fixed; inset: 0; z-index: 100; background: rgba(12, 12, 11, 0.84);
+      display: none; flex-direction: column; align-items: center; justify-content: center;
+      padding: 2rem; gap: 0.85rem; backdrop-filter: blur(8px); cursor: zoom-out;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: 90vw; max-height: 80vh; border-radius: 12px;
+      background: #fff; padding: 0.85rem; box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
+    }
+    .lightbox-cap { font-size: 0.86rem; color: #E5E5E0; text-align: center; max-width: 70ch; }
+
+    .toast {
+      position: fixed; bottom: 24px; right: 24px; z-index: 120;
+      background: var(--text); color: var(--bg);
+      font-family: "JetBrains Mono", monospace; font-size: 0.76rem;
+      padding: 0.58rem 0.95rem; border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      opacity: 0; transform: translateY(10px); pointer-events: none;
+      transition: all 0.2s ease;
+    }
+    .toast.show { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 760px) {
+      .hero { grid-template-columns: 1fr; gap: 1.5rem; }
+      .avatar-col { order: -1; align-items: flex-start; }
+      .avatar-frame { width: 104px; height: 104px; }
+      .agenda-strip { grid-template-columns: 1fr; }
+      .feat-card { grid-template-columns: 1fr; }
+      .news-row { grid-template-columns: 74px 1fr; }
+      .news-tag { display: none; }
+      .two-col { grid-template-columns: 1fr; }
+      .nav-links a { display: none; }
+      .search-input, .search-input:focus { width: 100%; }
+      .search-wrap { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="brand">Anchen Sun <span class="brand-tag">Google AI2</span></a>
+      <nav class="nav-links" id="topNav">
+        <a href="#news">News</a>
+        <a href="#selected">Selected</a>
+        <a href="#publications">Publications</a>
+        <a href="#background">Background</a>
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle theme"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="top">
+    <div class="hero-wrap">
+      <div class="hero">
+        <div>
+          <div class="eyebrow"><span class="dot"></span>Google LLC · AI2 Organization</div>
+          <h1>Anchen Sun</h1>
+          <p class="hero-sub"><strong>AI/ML Software Engineer</strong> building production AI Infrastructure, AI Agents &amp; AI Agent/Skill Qualifications.</p>
+          <p class="hero-bio">
+            I work in Google's <strong>AI2 (Artificial Intelligence &amp; Infrastructure)</strong> organization on the platforms and agentic systems that bring large-scale AI to production. I earned my Ph.D. in Electrical and Computer Engineering from the University of Miami. My research spans AI infrastructure, AI agents, AI agent/skill qualifications, deep learning, computational psychology, and engineering management.
+          </p>
+          <div class="links-row" id="linksRow"></div>
+        </div>
+        <div class="avatar-col">
+          <div class="avatar-frame">
+            <img id="avatarImg" src="images/android-chrome-512x512.png" alt="Anchen Sun" />
+          </div>
+          <span class="loc-meta" id="locMeta">Sunnyvale, CA</span>
+        </div>
+      </div>
+
+      <div class="agenda-strip">
+        <div class="agenda-item">
+          <div class="agenda-num">01 / SYSTEMS</div>
+          <div class="agenda-title">AI Infrastructure</div>
+          <div class="agenda-desc">Production serving, scalable orchestration, and reliable ML systems at Google AI2.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-num">02 / AGENTIC AI</div>
+          <div class="agenda-title">AI Agent/Skill Qualifications</div>
+          <div class="agenda-desc">Agent capability verification, skill qualification, and certified routing evaluation (RouteGuard).</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-num">03 / APPLIED ML</div>
+          <div class="agenda-title">Interdisciplinary Science</div>
+          <div class="agenda-desc">Automated classroom speech (WSW 2.0), cancer prognosis, and multimodal ESG auditing.</div>
+        </div>
+      </div>
+    </div>
+
+    <section id="news">
+      <div class="sec-head">
+        <h2 class="sec-title">Recent Updates</h2>
+        <span class="sec-kicker">2026 Timeline</span>
+      </div>
+      <div class="news-list" id="newsList"></div>
+    </section>
+
+    <section id="selected">
+      <div class="sec-head">
+        <h2 class="sec-title">Selected Research</h2>
+        <span class="sec-kicker">Click figure to inspect · Copy BibTeX</span>
+      </div>
+      <div class="featured-grid" id="featuredGrid"></div>
+    </section>
+
+    <section id="publications">
+      <div class="sec-head">
+        <h2 class="sec-title">Publications</h2>
+        <span class="sec-kicker" id="pubCountLabel"></span>
+      </div>
+      <div class="pub-toolbar">
+        <div class="tabs" id="pubTabs"></div>
+        <div class="search-wrap" id="searchWrap">
+          <input type="search" class="search-input" id="pubSearch" placeholder="Filter title, venue, year..." />
+        </div>
+      </div>
+      <div class="pub-list" id="pubList"></div>
+    </section>
+
+    <section id="background">
+      <div class="sec-head">
+        <h2 class="sec-title">Background &amp; Recognition</h2>
+        <span class="sec-kicker">Experience · Education · Honors</span>
+      </div>
+      <div class="two-col">
+        <div>
+          <div class="sub-heading">Experience</div>
+          <div class="tl-rail" id="expList"></div>
+        </div>
+        <div>
+          <div class="sub-heading">Education</div>
+          <div class="tl-rail" id="eduList"></div>
+        </div>
+      </div>
+      <div class="awards-list">
+        <div class="sub-heading">Honors &amp; Awards</div>
+        <div id="awardsList"></div>
+      </div>
+    </section>
+  </main>
+
+  <noscript>
+    <div class="container">{{ content }}</div>
+  </noscript>
+
+  <footer>
+    <span>© 2026 Anchen Sun</span>
+    <span>Sunnyvale, CA · Google LLC</span>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <img id="lightboxImg" alt="Expanded figure" />
+    <div class="lightbox-cap" id="lightboxCap"></div>
+  </div>
+  <div class="toast" id="toast">BibTeX copied to clipboard</div>
+
+  <script src="assets/js/homepage-data.js"></script>
+  <script>
+    const D = window.SITE_DATA;
+    const I = window.ICONS;
+
+    document.getElementById("avatarImg").src = D.profile.avatar;
+    document.getElementById("locMeta").innerHTML = `${I.pin} ${D.profile.location}`;
+    document.getElementById("searchWrap").insertAdjacentHTML("afterbegin", I.search);
+
+    document.getElementById("linksRow").innerHTML = `
+      <a class="link-chip primary" href="${D.profile.scholarUrl}" target="_blank" rel="noopener">
+        ${I.scholar} Google Scholar <span class="cit-num" id="total_cit">${D.profile.citations}</span>
+      </a>
+      <a class="link-chip" href="${D.profile.githubUrl}" target="_blank" rel="noopener">${I.github} GitHub</a>
+      <a class="link-chip" href="${D.profile.linkedinUrl}" target="_blank" rel="noopener">${I.linkedin} LinkedIn</a>
+      <a class="link-chip" href="mailto:${D.profile.email}">${I.mail} Email</a>
+    `;
+
+    document.getElementById("newsList").innerHTML = D.news.map((n, idx) => `
+      <div class="news-row">
+        <span class="news-date">${idx === 0 ? '<span class="new-dot" title="Latest"></span>' : ''}${n.date}</span>
+        <span class="news-tag ${n.type}">${n.tag}</span>
+        <div class="news-text">${n.html}</div>
+      </div>
+    `).join("");
+
+    document.getElementById("featuredGrid").innerHTML = D.featuredPapers.map((p, idx) => `
+      <article class="feat-card">
+        <div class="feat-thumb" onclick="openLightbox('${p.image}', '${p.title.replace(/'/g, "\\'")}', '${p.badge}')">
+          <img src="${p.image}" alt="${p.alt}" />
+          <span class="zoom-badge">${I.expand} Inspect</span>
+        </div>
+        <div class="feat-body">
+          <div class="feat-badges-row">
+            <span class="feat-venue">${p.badge}</span>
+            ${p.corresponding ? '<span class="corr-badge">★ Corresponding Author</span>' : ''}
+          </div>
+          <h3 class="feat-title"><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h3>
+          <div class="feat-authors">${window.fmtAuthors(p.authors, p.corresponding)}</div>
+          ${p.role ? `<div class="feat-role"><strong>My role:</strong> ${p.role}</div>` : ""}
+          <div class="feat-actions">
+            <a class="act-pill" href="${p.url}" target="_blank" rel="noopener">Paper ${I.arrowUpRight}</a>
+            <button class="act-pill" onclick="toggleAbs(${idx}, this)">+ Abstract</button>
+            <button class="act-pill" onclick="copyFeatBib(${idx})">${I.copy} BibTeX</button>
+          </div>
+          <div class="abs-panel" id="abs-${idx}">${p.abstract}</div>
+        </div>
+      </article>
+    `).join("");
+
+    window.toggleAbs = function (idx, btn) {
+      const el = document.getElementById("abs-" + idx);
+      const isOpen = el.classList.toggle("open");
+      btn.textContent = isOpen ? "− Abstract" : "+ Abstract";
+    };
+    window.copyFeatBib = function (idx) {
+      window.copyText(window.buildBibtex(D.featuredPapers[idx]), () => showToast("BibTeX copied to clipboard"));
+    };
+    window.copyPubBib = function (globalIdx) {
+      window.copyText(window.buildBibtex(D.publications[globalIdx]), () => showToast("BibTeX copied to clipboard"));
+    };
+
+    const isPaperOrPreprint = x => x.category === "paper" || x.category === "preprint";
+    const tabDefs = [
+      { id: "papers", label: `Papers (${D.publications.filter(isPaperOrPreprint).length})` },
+      { id: "talk", label: `Symposia & Talks (${D.publications.filter(x => x.category === "talk").length})` }
+    ];
+    let activeTab = "papers";
+    let searchQuery = "";
+
+    function renderPubs() {
+      document.getElementById("pubTabs").innerHTML = tabDefs.map(t => `
+        <button class="tab-btn ${activeTab === t.id ? "active" : ""}" onclick="setTab('${t.id}')">${t.label}</button>
+      `).join("");
+
+      const q = searchQuery.trim().toLowerCase();
+      const items = D.publications
+        .map((p, idx) => ({ p, idx }))
+        .filter(({ p }) => {
+          if (activeTab === "papers" && !isPaperOrPreprint(p)) return false;
+          if (activeTab === "talk" && p.category !== "talk") return false;
+          if (!q) return true;
+          return (p.title + " " + p.authors + " " + p.venue + " " + p.year).toLowerCase().includes(q);
+        });
+
+      document.getElementById("pubCountLabel").innerHTML = `${items.length} ${items.length === 1 ? "entry" : "entries"} · <span style="color:var(--accent)">*</span> Corresponding author`;
+
+      let prevYear = null;
+      document.getElementById("pubList").innerHTML = items.length ? items.map(({ p, idx }) => {
+        const sameYear = p.year === prevYear;
+        prevYear = p.year;
+        return `
+          <div class="pub-row ${sameYear ? "" : "year-start"}">
+            <div class="pub-year ${sameYear ? "continued" : ""}">${p.year}</div>
+            <div>
+              <div class="pub-title">${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">${p.title}</a>` : p.title}</div>
+              <div class="pub-authors">${window.fmtAuthors(p.authors, p.corresponding)}</div>
+              <div class="pub-meta">
+                <span class="pub-venue">${p.venue}</span>
+                ${p.corresponding ? '<span class="corr-badge">★ Corresponding Author</span>' : ''}
+                ${p.category === "preprint" ? '<span class="pub-pill" style="color:var(--tag-preprint);background:var(--tag-preprint-bg);border-color:transparent;">Preprint</span>' : ''}
+                ${p.note ? `<span class="pub-pill">${p.note}</span>` : ""}
+                ${p.url ? `<a class="pub-pill" href="${p.url}" target="_blank" rel="noopener">Link ${I.arrowUpRight}</a>` : ""}
+                ${p.extraLink ? `<a class="pub-pill" href="${p.extraLink.url}" target="_blank" rel="noopener">${p.extraLink.label} ${I.arrowUpRight}</a>` : ""}
+                <button class="pub-pill" onclick="copyPubBib(${idx})">${I.copy} BibTeX</button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join("") : `<div style="padding:1.5rem 0;color:var(--text-3);font-family:'JetBrains Mono',monospace;font-size:0.82rem;">No publications match "${searchQuery}".</div>`;
+    }
+    window.setTab = function (id) { activeTab = id; renderPubs(); };
+    document.getElementById("pubSearch").addEventListener("input", e => { searchQuery = e.target.value; renderPubs(); });
+    renderPubs();
+
+    document.getElementById("expList").innerHTML = D.experience.map((e, i) => `
+      <div class="tl-item ${i === 0 ? "current" : ""}">
+        <div class="tl-period">${e.period}</div>
+        <div class="tl-title">${e.role}</div>
+        <div class="tl-org">${e.url ? `<a href="${e.url}" target="_blank" rel="noopener">${e.org}</a>` : e.org} · ${e.detail}</div>
+      </div>
+    `).join("");
+
+    document.getElementById("eduList").innerHTML = D.education.map((e, i) => `
+      <div class="tl-item ${i === 0 ? "current" : ""}">
+        <div class="tl-period">${e.period}</div>
+        <div class="tl-title">${e.degree}</div>
+        <div class="tl-org">${e.org}${e.detail ? ` · ${e.detail}` : ""}</div>
+      </div>
+    `).join("");
+
+    document.getElementById("awardsList").innerHTML = D.honors.map(h => `
+      <div class="award-row">
+        <span class="award-date">${h.date}</span>
+        <span>${h.url ? `<a href="${h.url}" target="_blank" rel="noopener">${h.text}</a>` : h.text}</span>
+      </div>
+    `).join("");
+
+    const lb = document.getElementById("lightbox");
+    const lbImg = document.getElementById("lightboxImg");
+    const lbCap = document.getElementById("lightboxCap");
+    window.openLightbox = function (src, title, badge) {
+      lbImg.src = src;
+      lbCap.textContent = badge ? `${title} — ${badge}` : title;
+      lb.classList.add("open");
+    };
+    lb.addEventListener("click", () => lb.classList.remove("open"));
+    document.addEventListener("keydown", e => { if (e.key === "Escape") lb.classList.remove("open"); });
+
+    let toastTimer;
+    function showToast(msg) {
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => t.classList.remove("show"), 2000);
+    }
+
+    const themeBtn = document.getElementById("themeToggle");
+    function applyTheme(t) {
+      document.documentElement.setAttribute("data-theme", t);
+      themeBtn.innerHTML = t === "dark" ? `${I.sun} Light` : `${I.moon} Dark`;
+      try { localStorage.setItem("anchen_theme", t); } catch (e) {}
+    }
+    let savedTheme = "light";
+    try { savedTheme = localStorage.getItem("anchen_theme") || "light"; } catch (e) {}
+    applyTheme(savedTheme);
+    themeBtn.addEventListener("click", () => {
+      const cur = document.documentElement.getAttribute("data-theme");
+      applyTheme(cur === "dark" ? "light" : "dark");
+    });
+
+    const navAs = Array.from(document.querySelectorAll("#topNav a"));
+    const secs = navAs.map(a => document.querySelector(a.getAttribute("href")));
+    const bar = document.getElementById("progressBar");
+    window.addEventListener("scroll", () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)) * 100;
+      bar.style.width = pct + "%";
+      let cur = -1;
+      secs.forEach((s, i) => { if (s && s.getBoundingClientRect().top <= 130) cur = i; });
+      navAs.forEach((a, i) => a.classList.toggle("active", i === cur));
+    }, { passive: true });
+
+    window.syncGoogleScholarCitations("{{ site.repository }}", {% if site.google_scholar_stats_use_cdn %}true{% else %}false{% endif %});
+  </script>
+</body>
+</html>
