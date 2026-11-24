@@ -263,6 +263,17 @@
     .news-tag.paper { color: var(--tag-paper); background: var(--tag-paper-bg); }
     .news-tag.preprint { color: var(--tag-preprint); background: var(--tag-preprint-bg); }
     .news-tag.talk { color: var(--tag-talk); background: var(--tag-talk-bg); }
+    .news-tag.hiring { color: #047857; background: rgba(16, 185, 129, 0.14); }
+    [data-theme="dark"] .news-tag.hiring { color: #34D399; }
+    .hiring-callout {
+      margin-top: 1.25rem; padding: 1rem 1.2rem; border-radius: 13px;
+      background: var(--surface); border: 1px solid var(--accent-border);
+      border-left: 3px solid var(--accent);
+    }
+    .hiring-top { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.4rem; }
+    .hiring-title { font-family: "Newsreader", Georgia, serif; font-size: 1.08rem; font-weight: 500; color: var(--text); }
+    .hiring-desc { font-size: 0.85rem; color: var(--text-2); line-height: 1.56; }
+    .hiring-note { font-size: 0.8rem; color: var(--text-3); margin-top: 0.35rem; }
     .news-text { font-size: 0.91rem; color: var(--text-2); }
     .news-text strong, .news-text a { color: var(--text); font-weight: 500; }
     .news-text a { text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px; }
@@ -541,6 +552,7 @@
           <div class="agenda-desc">Automated classroom speech (WSW 2.0), cancer prognosis, and multimodal ESG auditing.</div>
         </div>
       </div>
+      <div id="hiringMount"></div>
     </div>
 
     <section id="news">
@@ -639,6 +651,19 @@
         <div class="news-text">${n.html}</div>
       </div>
     `).join("");
+
+    if (D.hiring) {
+      document.getElementById("hiringMount").innerHTML = `
+        <div class="hiring-callout">
+          <div class="hiring-top">
+            <span class="hiring-title">${D.hiring.title}</span>
+            <a class="act-pill" href="${D.hiring.applyUrl}" target="_blank" rel="noopener">Apply Online ${I.arrowUpRight}</a>
+          </div>
+          <div class="hiring-desc">${D.hiring.summary}</div>
+          <div class="hiring-note">${D.hiring.matchingNote}</div>
+        </div>
+      `;
+    }
 
     document.getElementById("featuredGrid").innerHTML = D.featuredPapers.map((p, idx) => `
       <article class="feat-card">

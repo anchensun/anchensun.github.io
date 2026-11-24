@@ -288,8 +288,43 @@
     }
     .news-pill.paper { background: rgba(16, 185, 129, 0.12); color: #059669; }
     .news-pill.preprint { background: rgba(245, 158, 11, 0.14); color: #B45309; }
+    .news-pill.hiring { background: rgba(16, 185, 129, 0.16); color: #047857; border: 1px solid rgba(16, 185, 129, 0.32); }
     [data-theme="dark"] .news-pill.paper { color: #34D399; }
     [data-theme="dark"] .news-pill.preprint { color: #FBBF24; }
+    [data-theme="dark"] .news-pill.hiring { color: #34D399; background: rgba(52, 211, 153, 0.16); border-color: rgba(52, 211, 153, 0.34); }
+    .hiring-callout {
+      margin-top: 1.15rem; padding: 1.05rem 1.2rem; border-radius: 15px;
+      background: var(--surface); border: 1px solid var(--accent-border);
+      box-shadow: var(--shadow-sm);
+      border-left: 3.5px solid var(--accent);
+    }
+    .hiring-top {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.45rem;
+    }
+    .hiring-title-wrap { display: flex; align-items: center; gap: 0.55rem; flex-wrap: wrap; }
+    .hiring-badge {
+      display: inline-flex; align-items: center; gap: 0.38rem;
+      font-family: "JetBrains Mono", monospace; font-size: 0.66rem; font-weight: 600;
+      color: #047857; background: rgba(16, 185, 129, 0.14);
+      border: 1px solid rgba(16, 185, 129, 0.28);
+      padding: 0.15rem 0.52rem; border-radius: 999px;
+    }
+    [data-theme="dark"] .hiring-badge { color: #34D399; }
+    .hiring-title {
+      font-family: "Plus Jakarta Sans", sans-serif; font-size: 0.94rem; font-weight: 700;
+      color: var(--text);
+    }
+    .hiring-apply {
+      display: inline-flex; align-items: center; gap: 0.32rem;
+      font-family: "JetBrains Mono", monospace; font-size: 0.72rem; font-weight: 600;
+      padding: 0.32rem 0.72rem; border-radius: 999px;
+      background: var(--accent); color: #fff; text-decoration: none;
+      transition: filter 0.15s ease;
+    }
+    .hiring-apply:hover { filter: brightness(1.08); color: #fff; text-decoration: none; }
+    .hiring-desc { font-size: 0.83rem; color: var(--text-2); line-height: 1.56; }
+    .hiring-note { font-size: 0.79rem; color: var(--text-3); margin-top: 0.42rem; line-height: 1.52; }
     .news-text { font-size: 0.89rem; color: var(--text-2); }
     .news-text strong { color: var(--text); font-weight: 600; }
 
@@ -554,6 +589,7 @@
             <div class="pillar-desc">Automated classroom speech analysis (WSW 2.0), bioinformatics, and LLM ESG auditing.</div>
           </div>
         </div>
+        <div id="hiringMount"></div>
       </section>
 
       <section class="surface-card" id="news">
@@ -654,6 +690,22 @@
       <a class="cta-btn" href="${D.profile.githubUrl}" target="_blank" rel="noopener">${I.github} GitHub</a>
       <a class="cta-btn" href="mailto:${D.profile.email}">${I.mail} Contact</a>
     `;
+
+    if (D.hiring) {
+      document.getElementById("hiringMount").innerHTML = `
+        <div class="hiring-callout">
+          <div class="hiring-top">
+            <div class="hiring-title-wrap">
+              <span class="hiring-badge"><span class="org-dot"></span>${D.hiring.badge}</span>
+              <span class="hiring-title">${D.hiring.title}</span>
+            </div>
+            <a class="hiring-apply" href="${D.hiring.applyUrl}" target="_blank" rel="noopener">Apply Online ${I.arrowUpRight}</a>
+          </div>
+          <div class="hiring-desc">${D.hiring.summary}</div>
+          <div class="hiring-note">${D.hiring.matchingNote}</div>
+        </div>
+      `;
+    }
 
     document.getElementById("newsList").innerHTML = D.news.map((n, idx) => `
       <div class="news-item">
