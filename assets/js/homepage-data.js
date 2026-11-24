@@ -27,7 +27,7 @@ window.SITE_DATA = {
     badge: "2027 SUMMER INTERN",
     title: "Hosting a 2027 Summer PhD SWE Intern @ Google (Sunnyvale · In-Person)",
     summary: "Looking for a PhD student working at the intersection of AI Agents, Distributed Systems, and Empirical ML/SE — focused on reliable automated debugging, agent distillation, rigorous evaluation, and principled self-improvement at cloud scale.",
-    applyUrl: "https://lnkd.in/gyYk_sgC",
+    applyUrl: "https://www.google.com/about/careers/applications/jobs/results/91436104816698054-software-engineering-intern-phd-summer-2027",
     matchingNote: "Already in Summer 2027 SWE PhD project matching? Please let your Google recruiter know you're interested in AI agents / systems reliability roles in Sunnyvale so they can coordinate next steps through the official matching process."
   },
 
@@ -36,7 +36,7 @@ window.SITE_DATA = {
       date: "2026.11",
       tag: "HIRING",
       type: "hiring",
-      html: `<strong>Hosting a 2027 Summer PhD SWE Intern @ Google (Sunnyvale · In-Person)</strong> — Looking for a PhD student working at the intersection of AI Agents, Distributed Systems, and Empirical ML/SE (reliable automated debugging, agent distillation, rigorous evaluation, and principled self-improvement at cloud scale). <a href="https://lnkd.in/gyYk_sgC" target="_blank" rel="noopener">Apply online ↗</a> · Already in Summer 2027 SWE PhD project matching? Let your Google recruiter know you're interested in AI agents / systems reliability roles in Sunnyvale to coordinate next steps through the official matching process.`
+      html: `<strong>Hosting a 2027 Summer PhD SWE Intern @ Google (Sunnyvale · In-Person)</strong> — Looking for a PhD student working at the intersection of AI Agents, Distributed Systems, and Empirical ML/SE (reliable automated debugging, agent distillation, rigorous evaluation, and principled self-improvement at cloud scale). <a href="https://www.google.com/about/careers/applications/jobs/results/91436104816698054-software-engineering-intern-phd-summer-2027" target="_blank" rel="noopener">Apply online ↗</a> · Already in Summer 2027 SWE PhD project matching? Let your Google recruiter know you're interested in AI agents / systems reliability roles in Sunnyvale to coordinate next steps through the official matching process.`
     },
     {
       date: "2026.11",
